@@ -66,6 +66,7 @@
 		BFD1DD0F1AB41780005E26F2 /* DaKaApi.m in Sources */ = {isa = PBXBuildFile; fileRef = BFD1DD0E1AB41780005E26F2 /* DaKaApi.m */; };
 		BFD1DD131AB41F43005E26F2 /* ChooseSortVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BFD1DD121AB41F43005E26F2 /* ChooseSortVC.m */; };
 		BFD1DD1A1AB42D7C005E26F2 /* UploadArtWorkVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BFD1DD191AB42D7C005E26F2 /* UploadArtWorkVC.m */; };
+		BFD1DD361AB4308C005E26F2 /* libOSS_IOS_SDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BFD1DD351AB4308C005E26F2 /* libOSS_IOS_SDK.a */; };
 		D1F401B91A8B3DDF003D227D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D1F401B81A8B3DDF003D227D /* main.m */; };
 		D1F401BC1A8B3DDF003D227D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D1F401BB1A8B3DDF003D227D /* AppDelegate.m */; };
 		D1F401BF1A8B3DDF003D227D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1F401BE1A8B3DDF003D227D /* ViewController.m */; };
@@ -180,6 +181,29 @@
 		BFD1DD171AB427FB005E26F2 /* DKGlobalDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DKGlobalDefine.h; sourceTree = "<group>"; };
 		BFD1DD181AB42D7C005E26F2 /* UploadArtWorkVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UploadArtWorkVC.h; sourceTree = "<group>"; };
 		BFD1DD191AB42D7C005E26F2 /* UploadArtWorkVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UploadArtWorkVC.m; sourceTree = "<group>"; };
+		BFD1DD1D1AB4308C005E26F2 /* OSSArgs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSSArgs.h; sourceTree = "<group>"; };
+		BFD1DD1E1AB4308C005E26F2 /* OSSBucket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSSBucket.h; sourceTree = "<group>"; };
+		BFD1DD1F1AB4308C005E26F2 /* OSSClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSSClient.h; sourceTree = "<group>"; };
+		BFD1DD201AB4308C005E26F2 /* OSSData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSSData.h; sourceTree = "<group>"; };
+		BFD1DD211AB4308C005E26F2 /* OSSFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSSFile.h; sourceTree = "<group>"; };
+		BFD1DD221AB4308C005E26F2 /* OSSLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSSLog.h; sourceTree = "<group>"; };
+		BFD1DD231AB4308C005E26F2 /* OSSMeta.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSSMeta.h; sourceTree = "<group>"; };
+		BFD1DD241AB4308C005E26F2 /* OSSMultipart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSSMultipart.h; sourceTree = "<group>"; };
+		BFD1DD251AB4308C005E26F2 /* OSSObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSSObject.h; sourceTree = "<group>"; };
+		BFD1DD261AB4308C005E26F2 /* OSSRange.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSSRange.h; sourceTree = "<group>"; };
+		BFD1DD271AB4308C005E26F2 /* OSSTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSSTool.h; sourceTree = "<group>"; };
+		BFD1DD291AB4308C005E26F2 /* OSSArgs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSSArgs.h; sourceTree = "<group>"; };
+		BFD1DD2A1AB4308C005E26F2 /* OSSBucket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSSBucket.h; sourceTree = "<group>"; };
+		BFD1DD2B1AB4308C005E26F2 /* OSSClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSSClient.h; sourceTree = "<group>"; };
+		BFD1DD2C1AB4308C005E26F2 /* OSSData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSSData.h; sourceTree = "<group>"; };
+		BFD1DD2D1AB4308C005E26F2 /* OSSFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSSFile.h; sourceTree = "<group>"; };
+		BFD1DD2E1AB4308C005E26F2 /* OSSLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSSLog.h; sourceTree = "<group>"; };
+		BFD1DD2F1AB4308C005E26F2 /* OSSMeta.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSSMeta.h; sourceTree = "<group>"; };
+		BFD1DD301AB4308C005E26F2 /* OSSMultipart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSSMultipart.h; sourceTree = "<group>"; };
+		BFD1DD311AB4308C005E26F2 /* OSSObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSSObject.h; sourceTree = "<group>"; };
+		BFD1DD321AB4308C005E26F2 /* OSSRange.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSSRange.h; sourceTree = "<group>"; };
+		BFD1DD331AB4308C005E26F2 /* OSSTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSSTool.h; sourceTree = "<group>"; };
+		BFD1DD351AB4308C005E26F2 /* libOSS_IOS_SDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libOSS_IOS_SDK.a; sourceTree = "<group>"; };
 		D1F401B31A8B3DDF003D227D /* DakaProgect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DakaProgect.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1F401B71A8B3DDF003D227D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D1F401B81A8B3DDF003D227D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -210,6 +234,7 @@
 				BFD1DCC51AB3FDB3005E26F2 /* ImageIO.framework in Frameworks */,
 				BFD1DCC31AB3FDA0005E26F2 /* Security.framework in Frameworks */,
 				BFD1DCBF1AB3FD82005E26F2 /* libicucore.dylib in Frameworks */,
+				BFD1DD361AB4308C005E26F2 /* libOSS_IOS_SDK.a in Frameworks */,
 				BFD1DCBD1AB3FD5F005E26F2 /* CoreTelephony.framework in Frameworks */,
 				BFD1DCBB1AB3FD4A005E26F2 /* QuartzCore.framework in Frameworks */,
 				BFD1DCB91AB3FCC7005E26F2 /* SystemConfiguration.framework in Frameworks */,
@@ -247,6 +272,7 @@
 		BFD1DC6B1AB3F869005E26F2 /* External */ = {
 			isa = PBXGroup;
 			children = (
+				BFD1DD1B1AB4308C005E26F2 /* aliyun */,
 				BFD1DCFA1AB40DE1005E26F2 /* Reachability */,
 				BFD1DCDB1AB40C3D005E26F2 /* ASIHttpRequest */,
 				BFD1DCD41AB4038E005E26F2 /* DakaRoot */,
@@ -468,6 +494,60 @@
 				BFD1DD191AB42D7C005E26F2 /* UploadArtWorkVC.m */,
 			);
 			path = UploadArtwork;
+			sourceTree = "<group>";
+		};
+		BFD1DD1B1AB4308C005E26F2 /* aliyun */ = {
+			isa = PBXGroup;
+			children = (
+				BFD1DD1C1AB4308C005E26F2 /* Release-iPhoneOS */,
+				BFD1DD281AB4308C005E26F2 /* Release-iPhoneSimulator */,
+				BFD1DD341AB4308C005E26F2 /* Universal */,
+			);
+			path = aliyun;
+			sourceTree = "<group>";
+		};
+		BFD1DD1C1AB4308C005E26F2 /* Release-iPhoneOS */ = {
+			isa = PBXGroup;
+			children = (
+				BFD1DD1D1AB4308C005E26F2 /* OSSArgs.h */,
+				BFD1DD1E1AB4308C005E26F2 /* OSSBucket.h */,
+				BFD1DD1F1AB4308C005E26F2 /* OSSClient.h */,
+				BFD1DD201AB4308C005E26F2 /* OSSData.h */,
+				BFD1DD211AB4308C005E26F2 /* OSSFile.h */,
+				BFD1DD221AB4308C005E26F2 /* OSSLog.h */,
+				BFD1DD231AB4308C005E26F2 /* OSSMeta.h */,
+				BFD1DD241AB4308C005E26F2 /* OSSMultipart.h */,
+				BFD1DD251AB4308C005E26F2 /* OSSObject.h */,
+				BFD1DD261AB4308C005E26F2 /* OSSRange.h */,
+				BFD1DD271AB4308C005E26F2 /* OSSTool.h */,
+			);
+			path = "Release-iPhoneOS";
+			sourceTree = "<group>";
+		};
+		BFD1DD281AB4308C005E26F2 /* Release-iPhoneSimulator */ = {
+			isa = PBXGroup;
+			children = (
+				BFD1DD291AB4308C005E26F2 /* OSSArgs.h */,
+				BFD1DD2A1AB4308C005E26F2 /* OSSBucket.h */,
+				BFD1DD2B1AB4308C005E26F2 /* OSSClient.h */,
+				BFD1DD2C1AB4308C005E26F2 /* OSSData.h */,
+				BFD1DD2D1AB4308C005E26F2 /* OSSFile.h */,
+				BFD1DD2E1AB4308C005E26F2 /* OSSLog.h */,
+				BFD1DD2F1AB4308C005E26F2 /* OSSMeta.h */,
+				BFD1DD301AB4308C005E26F2 /* OSSMultipart.h */,
+				BFD1DD311AB4308C005E26F2 /* OSSObject.h */,
+				BFD1DD321AB4308C005E26F2 /* OSSRange.h */,
+				BFD1DD331AB4308C005E26F2 /* OSSTool.h */,
+			);
+			path = "Release-iPhoneSimulator";
+			sourceTree = "<group>";
+		};
+		BFD1DD341AB4308C005E26F2 /* Universal */ = {
+			isa = PBXGroup;
+			children = (
+				BFD1DD351AB4308C005E26F2 /* libOSS_IOS_SDK.a */,
+			);
+			path = Universal;
 			sourceTree = "<group>";
 		};
 		D1F401AA1A8B3DDF003D227D = {
@@ -828,6 +908,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/DakaProgect/External/ShareSDK/Extend/SinaWeiboSDK",
 					"$(PROJECT_DIR)/DakaProgect/External/ShareSDK/Extend/WeChatSDK",
+					"$(PROJECT_DIR)/DakaProgect/External/aliyun/Universal",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -851,6 +932,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/DakaProgect/External/ShareSDK/Extend/SinaWeiboSDK",
 					"$(PROJECT_DIR)/DakaProgect/External/ShareSDK/Extend/WeChatSDK",
+					"$(PROJECT_DIR)/DakaProgect/External/aliyun/Universal",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
