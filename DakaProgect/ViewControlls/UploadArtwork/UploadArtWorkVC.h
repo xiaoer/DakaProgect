@@ -9,5 +9,5 @@
 #import "DKUIViewController.h"
 
 @interface UploadArtWorkVC : DKUIViewController
-
+@property (nonatomic,weak) IBOutlet UIScrollView *totalScrollView;
 @end

@@ -16,7 +16,18 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+     [SliderViewController sharedSliderController].LeftVC  = [[UIStoryboard storyboardWithName:@"Main" bundle:nil] instantiateViewControllerWithIdentifier:@"LeftVC"];
+    [SliderViewController sharedSliderController].LeftSContentOffset = 260;
+    [SliderViewController sharedSliderController].LeftSContentScale  = 1.0;
+    [SliderViewController sharedSliderController].LeftSJudgeOffset   = 100;
+    _nav = [[CustomNavigationController alloc] initWithRootViewController:[SliderViewController sharedSliderController]];
+    _nav.contentScale = 1;
+    _nav.judgeOffset = 100;
+    _nav.startX=0;
+    
+    self.window.rootViewController = _nav;
+
     return YES;
 }
 

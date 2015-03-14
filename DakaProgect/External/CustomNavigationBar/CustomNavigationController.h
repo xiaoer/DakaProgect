@@ -7,8 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import "GlobalDefine.h"
+#import "LRNavigationController.h"
 
-@interface CustomNavigationController : UINavigationController
+@interface CustomNavigationController : LRNavigationController
 
 // 是否可右滑返回
 - (void)navigationCanDragBack:(BOOL)bCanDragBack;

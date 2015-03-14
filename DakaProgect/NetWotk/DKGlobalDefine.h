@@ -9,5 +9,6 @@
 #ifndef DakaProgect_DKGlobalDefine_h
 #define DakaProgect_DKGlobalDefine_h
 
+#define iPhoneWidth    [[UIScreen mainScreen] bounds].size.width
 
 #endif

@@ -7,10 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "SliderViewController.h"
+#import "CustomNavigationController.h"
+
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
+@property (nonatomic,retain) CustomNavigationController *nav;
 
 
 @end

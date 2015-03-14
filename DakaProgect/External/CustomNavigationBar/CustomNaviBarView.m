@@ -12,6 +12,7 @@
 #define FLOAT_TitleSizeMini                 14.0f
 #define RGB_TitleNormal                     RGB(80.0f, 80.0f, 80.0f)
 #define RGB_TitleMini                       [UIColor blackColor]
+#define iPhoneWidth                         [[UIScreen mainScreen] bounds].size.width
 
 @interface CustomNaviBarView ()
 
@@ -47,12 +48,12 @@
 
 + (CGSize)barSize
 {
-    return Size(320.0f, 64.0f);
+    return Size(iPhoneWidth, 64.0f);
 }
 
 + (CGRect)titleViewFrame
 {
-    return Rect(65.0f, 22.0f, 190.0f, 40.0f);
+    return Rect(((iPhoneWidth) -190)/2 , 22.0f, 190.0f, 40.0f);
 }
 
 // 创建一个导航条按钮：使用默认的按钮图片。

@@ -7,6 +7,10 @@
 //
 
 #import "ViewController.h"
+#import "ChooseSortVC.h"
+#import "LRNavigationController.h"
+#import "SliderViewController.h"
+
 
 @interface ViewController ()
 
@@ -16,13 +20,19 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
-    UILabel *label = [[UILabel alloc] init];
-    label.frame = CGRectMake(100, 100, 100, 100);
-    label.backgroundColor = [UIColor yellowColor];
-    [self.view addSubview:label];
+    self.view.backgroundColor = [UIColor redColor];
+    UIButton *uploadButton = [[UIButton alloc] init];
+    [uploadButton setTitle:@"上传按钮" forState:UIControlStateNormal];
+    [uploadButton setFrame:CGRectMake(100, 100, 100, 100)];
+    [uploadButton addTarget:self action:@selector(uploadButtonSelected:) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:uploadButton];
 }
 
+-(void)uploadButtonSelected:(UIButton *)sendButton
+{
+    ChooseSortVC *chooseSortVc =[[UIStoryboard storyboardWithName:@"Main" bundle:nil] instantiateViewControllerWithIdentifier:@"ChooseSortVC"];
+    [(LRNavigationController*)[SliderViewController sharedSliderController].navigationController  pushViewControllerWithLRAnimated:chooseSortVc];
+}
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
 }

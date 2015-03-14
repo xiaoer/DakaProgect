@@ -19,6 +19,42 @@
     // Do any additional setup after loading the view.
 }
 
+-(IBAction)mainButtonSelected:(id)sender
+{
+    [self AllButtonSetUnSelected:sender];
+    [[SliderViewController sharedSliderController] showContentControllerWithModel:@"ViewController"];
+}
+-(IBAction)myArtworkButtonSelected:(id)sender
+{
+    [self AllButtonSetUnSelected:sender];
+    [[SliderViewController sharedSliderController] showContentControllerWithModel:@"MyArtworkVC"];
+}
+-(IBAction)sharedHisButtonSelected:(id)sender
+{
+    [self AllButtonSetUnSelected:sender];
+    [[SliderViewController sharedSliderController] showContentControllerWithModel:@"SharedHisVC"];
+}
+-(IBAction)draftButtonSelected:(id)sender
+{
+    [self AllButtonSetUnSelected:sender];
+    [[SliderViewController sharedSliderController] showContentControllerWithModel:@"DraftVC"];
+}
+-(IBAction)setButtonSelected:(id)sender
+{
+    [self AllButtonSetUnSelected:sender];
+    [[SliderViewController sharedSliderController] showContentControllerWithModel:@"SettingVC"];
+}
+
+-(void)AllButtonSetUnSelected:(id)sender
+{
+    NSArray *buttonArray = [NSArray arrayWithObjects:_mainButton,_myArtworkButton,_sharedHisButton,_draftButton,_setButton,nil];
+    for (int i =0 ; i < [buttonArray count]; i ++) {
+        [[buttonArray objectAtIndex:i] setSelected:NO];
+    }
+    [(UIButton *)sender setSelected:YES];
+}
+
+
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.

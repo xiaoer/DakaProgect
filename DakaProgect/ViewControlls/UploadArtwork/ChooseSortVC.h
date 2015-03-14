@@ -10,4 +10,6 @@
 
 @interface ChooseSortVC : CustomViewController
 
+@property (nonatomic,weak) IBOutlet UIScrollView *totalScrollView;
+
 @end
