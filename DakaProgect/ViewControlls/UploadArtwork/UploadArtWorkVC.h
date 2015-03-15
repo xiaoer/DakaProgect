@@ -6,8 +6,10 @@
 //  Copyright (c) 2015年 lipeifeng. All rights reserved.
 //
 
-#import "DKUIViewController.h"
+#import "CustomViewController.h"
 
-@interface UploadArtWorkVC : DKUIViewController
+@interface UploadArtWorkVC : CustomViewController<UIActionSheetDelegate>
+
 @property (nonatomic,weak) IBOutlet UIScrollView *totalScrollView;
+
 @end
