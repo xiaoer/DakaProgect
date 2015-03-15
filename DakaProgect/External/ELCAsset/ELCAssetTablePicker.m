@@ -25,8 +25,8 @@
 -(void)viewDidLoad {
     
     [super viewDidLoad];
-    self.view.backgroundColor = UIColorFromRGB(0xf1f1f1);
-    self.tableView.backgroundColor =UIColorFromRGB(0xf1f1f1);
+    self.view.backgroundColor = UIColorFromRGB(0xe5e5e5);
+    self.tableView.backgroundColor =UIColorFromRGB(0xe5e5e5);
     [self setNaviBarTitle:_navTitle];
 
     [UtilityFunc resetScrlView:_tableView contentInsetWithNaviBar:YES tabBar:NO iOS7ContentInsetStatusBarHeight:0 inidcatorInsetStatusBarHeight:-1];

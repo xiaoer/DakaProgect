@@ -9,6 +9,7 @@
 #import "ELCAsset.h"
 #import "AssetObject.h"
 #import "DKGlobalDefine.h"
+#import "DKGlobalDefine.h"
 
 @implementation ELCAssetCell
 
@@ -18,9 +19,12 @@
     if (self) {
         CGRect rect = CGRectZero;
         rect = self.frame;
+        rect.size.width = iPhoneWidth;
         rect.size.height = (iPhoneWidth - 12)/3 +6;
         self.frame = rect;
         self.contentView.frame = rect;
+        self.contentView.backgroundColor = UIColorFromRGB(0xe5e5e5);
+        self.backgroundColor = UIColorFromRGB(0xe5e5e5);
         
         rect.origin.x = 0;
         rect.origin.y = 3;
