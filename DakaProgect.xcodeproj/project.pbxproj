@@ -67,6 +67,31 @@
 		BFD1DD131AB41F43005E26F2 /* ChooseSortVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BFD1DD121AB41F43005E26F2 /* ChooseSortVC.m */; };
 		BFD1DD1A1AB42D7C005E26F2 /* UploadArtWorkVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BFD1DD191AB42D7C005E26F2 /* UploadArtWorkVC.m */; };
 		BFD1DD361AB4308C005E26F2 /* libOSS_IOS_SDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BFD1DD351AB4308C005E26F2 /* libOSS_IOS_SDK.a */; };
+		BFD1DD451AB54334005E26F2 /* AssetObject.m in Sources */ = {isa = PBXBuildFile; fileRef = BFD1DD391AB54334005E26F2 /* AssetObject.m */; };
+		BFD1DD461AB54334005E26F2 /* ELCAlbumPickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFD1DD3B1AB54334005E26F2 /* ELCAlbumPickerController.m */; };
+		BFD1DD471AB54334005E26F2 /* ELCAsset.m in Sources */ = {isa = PBXBuildFile; fileRef = BFD1DD3D1AB54334005E26F2 /* ELCAsset.m */; };
+		BFD1DD481AB54334005E26F2 /* ELCAssetCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BFD1DD3F1AB54334005E26F2 /* ELCAssetCell.m */; };
+		BFD1DD491AB54334005E26F2 /* ELCAssetGroupCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BFD1DD411AB54334005E26F2 /* ELCAssetGroupCell.m */; };
+		BFD1DD4A1AB54334005E26F2 /* ELCAssetGroupCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BFD1DD421AB54334005E26F2 /* ELCAssetGroupCell.xib */; };
+		BFD1DD4B1AB54334005E26F2 /* ELCAssetTablePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = BFD1DD441AB54334005E26F2 /* ELCAssetTablePicker.m */; };
+		BFD1DD511AB54393005E26F2 /* BIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = BFD1DD4E1AB54393005E26F2 /* BIndicator.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		BFD1DD521AB54393005E26F2 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = BFD1DD501AB54393005E26F2 /* MBProgressHUD.m */; };
+		BFD1DD551AB544A2005E26F2 /* CameraOverlayVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BFD1DD541AB544A2005E26F2 /* CameraOverlayVC.m */; };
+		BFD1DD5B1AB544E0005E26F2 /* ISIrisElementLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = BFD1DD581AB544E0005E26F2 /* ISIrisElementLayer.m */; };
+		BFD1DD5C1AB544E0005E26F2 /* ISIrisView.m in Sources */ = {isa = PBXBuildFile; fileRef = BFD1DD5A1AB544E0005E26F2 /* ISIrisView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		BFD1DD641AB54641005E26F2 /* AVCamCaptureManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BFD1DD5F1AB54641005E26F2 /* AVCamCaptureManager.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		BFD1DD651AB54641005E26F2 /* AVCamRecorder.m in Sources */ = {isa = PBXBuildFile; fileRef = BFD1DD611AB54641005E26F2 /* AVCamRecorder.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		BFD1DD661AB54641005E26F2 /* AVCamUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = BFD1DD631AB54641005E26F2 /* AVCamUtilities.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		BFD1DD741AB546BA005E26F2 /* GMGridView.m in Sources */ = {isa = PBXBuildFile; fileRef = BFD1DD6A1AB546BA005E26F2 /* GMGridView.m */; };
+		BFD1DD751AB546BA005E26F2 /* GMGridViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BFD1DD6D1AB546BA005E26F2 /* GMGridViewCell.m */; };
+		BFD1DD761AB546BA005E26F2 /* GMGridViewLayoutStrategies.m in Sources */ = {isa = PBXBuildFile; fileRef = BFD1DD6F1AB546BA005E26F2 /* GMGridViewLayoutStrategies.m */; };
+		BFD1DD771AB546BA005E26F2 /* UIGestureRecognizer+GMGridViewAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = BFD1DD711AB546BA005E26F2 /* UIGestureRecognizer+GMGridViewAdditions.m */; };
+		BFD1DD781AB546BA005E26F2 /* UIView+GMGridViewAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = BFD1DD731AB546BA005E26F2 /* UIView+GMGridViewAdditions.m */; };
+		BFD1DD7B1AB549D0005E26F2 /* FileHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = BFD1DD7A1AB549D0005E26F2 /* FileHelper.m */; };
+		BFD1DD7E1AB54A7B005E26F2 /* LxUI.m in Sources */ = {isa = PBXBuildFile; fileRef = BFD1DD7D1AB54A7B005E26F2 /* LxUI.m */; };
+		BFD1DD841AB54B99005E26F2 /* ThumilView.m in Sources */ = {isa = PBXBuildFile; fileRef = BFD1DD821AB54B99005E26F2 /* ThumilView.m */; };
+		BFD1DD851AB54B99005E26F2 /* ThumilView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BFD1DD831AB54B99005E26F2 /* ThumilView.xib */; };
+		BFD1DD881AB54CA2005E26F2 /* UUID.m in Sources */ = {isa = PBXBuildFile; fileRef = BFD1DD871AB54CA2005E26F2 /* UUID.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		D1F401B91A8B3DDF003D227D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D1F401B81A8B3DDF003D227D /* main.m */; };
 		D1F401BC1A8B3DDF003D227D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D1F401BB1A8B3DDF003D227D /* AppDelegate.m */; };
 		D1F401BF1A8B3DDF003D227D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1F401BE1A8B3DDF003D227D /* ViewController.m */; };
@@ -204,6 +229,56 @@
 		BFD1DD321AB4308C005E26F2 /* OSSRange.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSSRange.h; sourceTree = "<group>"; };
 		BFD1DD331AB4308C005E26F2 /* OSSTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSSTool.h; sourceTree = "<group>"; };
 		BFD1DD351AB4308C005E26F2 /* libOSS_IOS_SDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libOSS_IOS_SDK.a; sourceTree = "<group>"; };
+		BFD1DD381AB54334005E26F2 /* AssetObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AssetObject.h; sourceTree = "<group>"; };
+		BFD1DD391AB54334005E26F2 /* AssetObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AssetObject.m; sourceTree = "<group>"; };
+		BFD1DD3A1AB54334005E26F2 /* ELCAlbumPickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELCAlbumPickerController.h; sourceTree = "<group>"; };
+		BFD1DD3B1AB54334005E26F2 /* ELCAlbumPickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ELCAlbumPickerController.m; sourceTree = "<group>"; };
+		BFD1DD3C1AB54334005E26F2 /* ELCAsset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELCAsset.h; sourceTree = "<group>"; };
+		BFD1DD3D1AB54334005E26F2 /* ELCAsset.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ELCAsset.m; sourceTree = "<group>"; };
+		BFD1DD3E1AB54334005E26F2 /* ELCAssetCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELCAssetCell.h; sourceTree = "<group>"; };
+		BFD1DD3F1AB54334005E26F2 /* ELCAssetCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ELCAssetCell.m; sourceTree = "<group>"; };
+		BFD1DD401AB54334005E26F2 /* ELCAssetGroupCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELCAssetGroupCell.h; sourceTree = "<group>"; };
+		BFD1DD411AB54334005E26F2 /* ELCAssetGroupCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ELCAssetGroupCell.m; sourceTree = "<group>"; };
+		BFD1DD421AB54334005E26F2 /* ELCAssetGroupCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ELCAssetGroupCell.xib; sourceTree = "<group>"; };
+		BFD1DD431AB54334005E26F2 /* ELCAssetTablePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELCAssetTablePicker.h; sourceTree = "<group>"; };
+		BFD1DD441AB54334005E26F2 /* ELCAssetTablePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ELCAssetTablePicker.m; sourceTree = "<group>"; };
+		BFD1DD4D1AB54393005E26F2 /* BIndicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIndicator.h; sourceTree = "<group>"; };
+		BFD1DD4E1AB54393005E26F2 /* BIndicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIndicator.m; sourceTree = "<group>"; };
+		BFD1DD4F1AB54393005E26F2 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		BFD1DD501AB54393005E26F2 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		BFD1DD531AB544A2005E26F2 /* CameraOverlayVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraOverlayVC.h; sourceTree = "<group>"; };
+		BFD1DD541AB544A2005E26F2 /* CameraOverlayVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CameraOverlayVC.m; sourceTree = "<group>"; };
+		BFD1DD571AB544E0005E26F2 /* ISIrisElementLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISIrisElementLayer.h; sourceTree = "<group>"; };
+		BFD1DD581AB544E0005E26F2 /* ISIrisElementLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ISIrisElementLayer.m; sourceTree = "<group>"; };
+		BFD1DD591AB544E0005E26F2 /* ISIrisView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISIrisView.h; sourceTree = "<group>"; };
+		BFD1DD5A1AB544E0005E26F2 /* ISIrisView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ISIrisView.m; sourceTree = "<group>"; };
+		BFD1DD5E1AB54641005E26F2 /* AVCamCaptureManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVCamCaptureManager.h; sourceTree = "<group>"; };
+		BFD1DD5F1AB54641005E26F2 /* AVCamCaptureManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVCamCaptureManager.m; sourceTree = "<group>"; };
+		BFD1DD601AB54641005E26F2 /* AVCamRecorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVCamRecorder.h; sourceTree = "<group>"; };
+		BFD1DD611AB54641005E26F2 /* AVCamRecorder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVCamRecorder.m; sourceTree = "<group>"; };
+		BFD1DD621AB54641005E26F2 /* AVCamUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVCamUtilities.h; sourceTree = "<group>"; };
+		BFD1DD631AB54641005E26F2 /* AVCamUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVCamUtilities.m; sourceTree = "<group>"; };
+		BFD1DD681AB546BA005E26F2 /* GMGridView-Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GMGridView-Constants.h"; sourceTree = "<group>"; };
+		BFD1DD691AB546BA005E26F2 /* GMGridView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMGridView.h; sourceTree = "<group>"; };
+		BFD1DD6A1AB546BA005E26F2 /* GMGridView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMGridView.m; sourceTree = "<group>"; };
+		BFD1DD6B1AB546BA005E26F2 /* GMGridViewCell+Extended.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GMGridViewCell+Extended.h"; sourceTree = "<group>"; };
+		BFD1DD6C1AB546BA005E26F2 /* GMGridViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMGridViewCell.h; sourceTree = "<group>"; };
+		BFD1DD6D1AB546BA005E26F2 /* GMGridViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMGridViewCell.m; sourceTree = "<group>"; };
+		BFD1DD6E1AB546BA005E26F2 /* GMGridViewLayoutStrategies.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMGridViewLayoutStrategies.h; sourceTree = "<group>"; };
+		BFD1DD6F1AB546BA005E26F2 /* GMGridViewLayoutStrategies.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMGridViewLayoutStrategies.m; sourceTree = "<group>"; };
+		BFD1DD701AB546BA005E26F2 /* UIGestureRecognizer+GMGridViewAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIGestureRecognizer+GMGridViewAdditions.h"; sourceTree = "<group>"; };
+		BFD1DD711AB546BA005E26F2 /* UIGestureRecognizer+GMGridViewAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIGestureRecognizer+GMGridViewAdditions.m"; sourceTree = "<group>"; };
+		BFD1DD721AB546BA005E26F2 /* UIView+GMGridViewAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+GMGridViewAdditions.h"; sourceTree = "<group>"; };
+		BFD1DD731AB546BA005E26F2 /* UIView+GMGridViewAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+GMGridViewAdditions.m"; sourceTree = "<group>"; };
+		BFD1DD791AB549D0005E26F2 /* FileHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileHelper.h; sourceTree = "<group>"; };
+		BFD1DD7A1AB549D0005E26F2 /* FileHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileHelper.m; sourceTree = "<group>"; };
+		BFD1DD7C1AB54A7B005E26F2 /* LxUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LxUI.h; sourceTree = "<group>"; };
+		BFD1DD7D1AB54A7B005E26F2 /* LxUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LxUI.m; sourceTree = "<group>"; };
+		BFD1DD811AB54B99005E26F2 /* ThumilView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThumilView.h; sourceTree = "<group>"; };
+		BFD1DD821AB54B99005E26F2 /* ThumilView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThumilView.m; sourceTree = "<group>"; };
+		BFD1DD831AB54B99005E26F2 /* ThumilView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ThumilView.xib; sourceTree = "<group>"; };
+		BFD1DD861AB54CA2005E26F2 /* UUID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UUID.h; sourceTree = "<group>"; };
+		BFD1DD871AB54CA2005E26F2 /* UUID.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UUID.m; sourceTree = "<group>"; };
 		D1F401B31A8B3DDF003D227D /* DakaProgect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DakaProgect.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1F401B71A8B3DDF003D227D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D1F401B81A8B3DDF003D227D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -272,6 +347,11 @@
 		BFD1DC6B1AB3F869005E26F2 /* External */ = {
 			isa = PBXGroup;
 			children = (
+				BFD1DD671AB546BA005E26F2 /* GMGirdView */,
+				BFD1DD5D1AB54641005E26F2 /* AVCam */,
+				BFD1DD561AB544E0005E26F2 /* Shutter */,
+				BFD1DD4C1AB54393005E26F2 /* MBProgressHUD */,
+				BFD1DD371AB54334005E26F2 /* ELCAsset */,
 				BFD1DD1B1AB4308C005E26F2 /* aliyun */,
 				BFD1DCFA1AB40DE1005E26F2 /* Reachability */,
 				BFD1DCDB1AB40C3D005E26F2 /* ASIHttpRequest */,
@@ -478,9 +558,15 @@
 		BFD1DD0C1AB4175C005E26F2 /* NetWotk */ = {
 			isa = PBXGroup;
 			children = (
+				BFD1DD861AB54CA2005E26F2 /* UUID.h */,
+				BFD1DD871AB54CA2005E26F2 /* UUID.m */,
 				BFD1DD0D1AB41780005E26F2 /* DaKaApi.h */,
 				BFD1DD0E1AB41780005E26F2 /* DaKaApi.m */,
 				BFD1DD171AB427FB005E26F2 /* DKGlobalDefine.h */,
+				BFD1DD791AB549D0005E26F2 /* FileHelper.h */,
+				BFD1DD7A1AB549D0005E26F2 /* FileHelper.m */,
+				BFD1DD7C1AB54A7B005E26F2 /* LxUI.h */,
+				BFD1DD7D1AB54A7B005E26F2 /* LxUI.m */,
 			);
 			path = NetWotk;
 			sourceTree = "<group>";
@@ -488,6 +574,8 @@
 		BFD1DD101AB41EEF005E26F2 /* UploadArtwork */ = {
 			isa = PBXGroup;
 			children = (
+				BFD1DD531AB544A2005E26F2 /* CameraOverlayVC.h */,
+				BFD1DD541AB544A2005E26F2 /* CameraOverlayVC.m */,
 				BFD1DD111AB41F43005E26F2 /* ChooseSortVC.h */,
 				BFD1DD121AB41F43005E26F2 /* ChooseSortVC.m */,
 				BFD1DD181AB42D7C005E26F2 /* UploadArtWorkVC.h */,
@@ -550,6 +638,98 @@
 			path = Universal;
 			sourceTree = "<group>";
 		};
+		BFD1DD371AB54334005E26F2 /* ELCAsset */ = {
+			isa = PBXGroup;
+			children = (
+				BFD1DD381AB54334005E26F2 /* AssetObject.h */,
+				BFD1DD391AB54334005E26F2 /* AssetObject.m */,
+				BFD1DD3A1AB54334005E26F2 /* ELCAlbumPickerController.h */,
+				BFD1DD3B1AB54334005E26F2 /* ELCAlbumPickerController.m */,
+				BFD1DD3C1AB54334005E26F2 /* ELCAsset.h */,
+				BFD1DD3D1AB54334005E26F2 /* ELCAsset.m */,
+				BFD1DD3E1AB54334005E26F2 /* ELCAssetCell.h */,
+				BFD1DD3F1AB54334005E26F2 /* ELCAssetCell.m */,
+				BFD1DD401AB54334005E26F2 /* ELCAssetGroupCell.h */,
+				BFD1DD411AB54334005E26F2 /* ELCAssetGroupCell.m */,
+				BFD1DD421AB54334005E26F2 /* ELCAssetGroupCell.xib */,
+				BFD1DD431AB54334005E26F2 /* ELCAssetTablePicker.h */,
+				BFD1DD441AB54334005E26F2 /* ELCAssetTablePicker.m */,
+			);
+			path = ELCAsset;
+			sourceTree = "<group>";
+		};
+		BFD1DD4C1AB54393005E26F2 /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				BFD1DD4D1AB54393005E26F2 /* BIndicator.h */,
+				BFD1DD4E1AB54393005E26F2 /* BIndicator.m */,
+				BFD1DD4F1AB54393005E26F2 /* MBProgressHUD.h */,
+				BFD1DD501AB54393005E26F2 /* MBProgressHUD.m */,
+			);
+			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+		BFD1DD561AB544E0005E26F2 /* Shutter */ = {
+			isa = PBXGroup;
+			children = (
+				BFD1DD571AB544E0005E26F2 /* ISIrisElementLayer.h */,
+				BFD1DD581AB544E0005E26F2 /* ISIrisElementLayer.m */,
+				BFD1DD591AB544E0005E26F2 /* ISIrisView.h */,
+				BFD1DD5A1AB544E0005E26F2 /* ISIrisView.m */,
+			);
+			path = Shutter;
+			sourceTree = "<group>";
+		};
+		BFD1DD5D1AB54641005E26F2 /* AVCam */ = {
+			isa = PBXGroup;
+			children = (
+				BFD1DD5E1AB54641005E26F2 /* AVCamCaptureManager.h */,
+				BFD1DD5F1AB54641005E26F2 /* AVCamCaptureManager.m */,
+				BFD1DD601AB54641005E26F2 /* AVCamRecorder.h */,
+				BFD1DD611AB54641005E26F2 /* AVCamRecorder.m */,
+				BFD1DD621AB54641005E26F2 /* AVCamUtilities.h */,
+				BFD1DD631AB54641005E26F2 /* AVCamUtilities.m */,
+			);
+			path = AVCam;
+			sourceTree = "<group>";
+		};
+		BFD1DD671AB546BA005E26F2 /* GMGirdView */ = {
+			isa = PBXGroup;
+			children = (
+				BFD1DD681AB546BA005E26F2 /* GMGridView-Constants.h */,
+				BFD1DD691AB546BA005E26F2 /* GMGridView.h */,
+				BFD1DD6A1AB546BA005E26F2 /* GMGridView.m */,
+				BFD1DD6B1AB546BA005E26F2 /* GMGridViewCell+Extended.h */,
+				BFD1DD6C1AB546BA005E26F2 /* GMGridViewCell.h */,
+				BFD1DD6D1AB546BA005E26F2 /* GMGridViewCell.m */,
+				BFD1DD6E1AB546BA005E26F2 /* GMGridViewLayoutStrategies.h */,
+				BFD1DD6F1AB546BA005E26F2 /* GMGridViewLayoutStrategies.m */,
+				BFD1DD701AB546BA005E26F2 /* UIGestureRecognizer+GMGridViewAdditions.h */,
+				BFD1DD711AB546BA005E26F2 /* UIGestureRecognizer+GMGridViewAdditions.m */,
+				BFD1DD721AB546BA005E26F2 /* UIView+GMGridViewAdditions.h */,
+				BFD1DD731AB546BA005E26F2 /* UIView+GMGridViewAdditions.m */,
+			);
+			path = GMGirdView;
+			sourceTree = "<group>";
+		};
+		BFD1DD7F1AB54B55005E26F2 /* UIViewS */ = {
+			isa = PBXGroup;
+			children = (
+				BFD1DD801AB54B55005E26F2 /* uploadView */,
+			);
+			path = UIViewS;
+			sourceTree = "<group>";
+		};
+		BFD1DD801AB54B55005E26F2 /* uploadView */ = {
+			isa = PBXGroup;
+			children = (
+				BFD1DD811AB54B99005E26F2 /* ThumilView.h */,
+				BFD1DD821AB54B99005E26F2 /* ThumilView.m */,
+				BFD1DD831AB54B99005E26F2 /* ThumilView.xib */,
+			);
+			path = uploadView;
+			sourceTree = "<group>";
+		};
 		D1F401AA1A8B3DDF003D227D = {
 			isa = PBXGroup;
 			children = (
@@ -585,6 +765,7 @@
 		D1F401B51A8B3DDF003D227D /* DakaProgect */ = {
 			isa = PBXGroup;
 			children = (
+				BFD1DD7F1AB54B55005E26F2 /* UIViewS */,
 				BFD1DD0C1AB4175C005E26F2 /* NetWotk */,
 				BFD1DCFE1AB40F95005E26F2 /* ViewControlls */,
 				BFD1DC6B1AB3F869005E26F2 /* External */,
@@ -715,8 +896,10 @@
 				D1F401C71A8B3DDF003D227D /* LaunchScreen.xib in Resources */,
 				BFD1DCAC1AB3FC1C005E26F2 /* ShareSDKLocalizable.strings in Resources */,
 				BFD1DCB21AB3FC1C005E26F2 /* WeiboSDK.bundle in Resources */,
+				BFD1DD851AB54B99005E26F2 /* ThumilView.xib in Resources */,
 				D1F401C41A8B3DDF003D227D /* Images.xcassets in Resources */,
 				BFD1DCB51AB3FC1C005E26F2 /* ShareSDKFlatShareViewUI.bundle in Resources */,
+				BFD1DD4A1AB54334005E26F2 /* ELCAssetGroupCell.xib in Resources */,
 				BFD1DCAD1AB3FC1C005E26F2 /* Resource.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -735,34 +918,57 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFD1DD761AB546BA005E26F2 /* GMGridViewLayoutStrategies.m in Sources */,
 				BFD1DC7C1AB3F8AE005E26F2 /* UtilityFunc.m in Sources */,
 				D1F401BF1A8B3DDF003D227D /* ViewController.m in Sources */,
 				BFD1DCF11AB40C3D005E26F2 /* ASIDataCompressor.m in Sources */,
 				BFD1DCD71AB403BA005E26F2 /* DKUIViewController.m in Sources */,
 				BFD1DD081AB4105D005E26F2 /* SharedHisVC.m in Sources */,
 				BFD1DCF71AB40C3D005E26F2 /* ASINetworkQueue.m in Sources */,
+				BFD1DD651AB54641005E26F2 /* AVCamRecorder.m in Sources */,
 				BFD1DCDA1AB403F0005E26F2 /* LeftVC.m in Sources */,
+				BFD1DD641AB54641005E26F2 /* AVCamCaptureManager.m in Sources */,
 				BFD1DD0B1AB4109E005E26F2 /* MyArtworkVC.m in Sources */,
 				BFD1DD1A1AB42D7C005E26F2 /* UploadArtWorkVC.m in Sources */,
 				BFD1DD051AB41029005E26F2 /* DraftVC.m in Sources */,
 				D1F401BC1A8B3DDF003D227D /* AppDelegate.m in Sources */,
+				BFD1DD7E1AB54A7B005E26F2 /* LxUI.m in Sources */,
 				BFD1DD021AB40FE0005E26F2 /* SettingVC.m in Sources */,
 				BFD1DCF31AB40C3D005E26F2 /* ASIDownloadCache.m in Sources */,
+				BFD1DD841AB54B99005E26F2 /* ThumilView.m in Sources */,
+				BFD1DD661AB54641005E26F2 /* AVCamUtilities.m in Sources */,
+				BFD1DD5C1AB544E0005E26F2 /* ISIrisView.m in Sources */,
 				BFD1DCF61AB40C3D005E26F2 /* ASIInputStream.m in Sources */,
+				BFD1DD491AB54334005E26F2 /* ELCAssetGroupCell.m in Sources */,
+				BFD1DD551AB544A2005E26F2 /* CameraOverlayVC.m in Sources */,
+				BFD1DD451AB54334005E26F2 /* AssetObject.m in Sources */,
 				BFD1DD131AB41F43005E26F2 /* ChooseSortVC.m in Sources */,
+				BFD1DD7B1AB549D0005E26F2 /* FileHelper.m in Sources */,
+				BFD1DD741AB546BA005E26F2 /* GMGridView.m in Sources */,
+				BFD1DD781AB546BA005E26F2 /* UIView+GMGridViewAdditions.m in Sources */,
+				BFD1DD771AB546BA005E26F2 /* UIGestureRecognizer+GMGridViewAdditions.m in Sources */,
 				BFD1DC7B1AB3F8AE005E26F2 /* CustomViewController.m in Sources */,
 				BFD1DCFD1AB40DE1005E26F2 /* Reachability.m in Sources */,
 				BFD1DC791AB3F8AE005E26F2 /* CustomNaviBarView.m in Sources */,
 				BFD1DCF01AB40C3D005E26F2 /* ASIAuthenticationDialog.m in Sources */,
+				BFD1DD461AB54334005E26F2 /* ELCAlbumPickerController.m in Sources */,
 				BFD1DC781AB3F8AE005E26F2 /* CustomNaviBarSearchController.m in Sources */,
 				BFD1DCF51AB40C3D005E26F2 /* ASIHTTPRequest.m in Sources */,
+				BFD1DD5B1AB544E0005E26F2 /* ISIrisElementLayer.m in Sources */,
 				BFD1DC7A1AB3F8AE005E26F2 /* CustomNavigationController.m in Sources */,
+				BFD1DD471AB54334005E26F2 /* ELCAsset.m in Sources */,
 				BFD1DCD31AB401DE005E26F2 /* LRNavigationController.m in Sources */,
 				BFD1DCCF1AB401CF005E26F2 /* SliderViewController.m in Sources */,
+				BFD1DD4B1AB54334005E26F2 /* ELCAssetTablePicker.m in Sources */,
+				BFD1DD751AB546BA005E26F2 /* GMGridViewCell.m in Sources */,
+				BFD1DD511AB54393005E26F2 /* BIndicator.m in Sources */,
 				D1F401B91A8B3DDF003D227D /* main.m in Sources */,
+				BFD1DD521AB54393005E26F2 /* MBProgressHUD.m in Sources */,
 				BFD1DCF41AB40C3D005E26F2 /* ASIFormDataRequest.m in Sources */,
+				BFD1DD481AB54334005E26F2 /* ELCAssetCell.m in Sources */,
 				BFD1DCF21AB40C3D005E26F2 /* ASIDataDecompressor.m in Sources */,
 				BFD1DD0F1AB41780005E26F2 /* DaKaApi.m in Sources */,
+				BFD1DD881AB54CA2005E26F2 /* UUID.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
