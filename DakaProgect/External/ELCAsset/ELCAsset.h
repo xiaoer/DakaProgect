@@ -14,4 +14,7 @@
 @property (nonatomic, weak) IBOutlet UIImageView *overlayView;
 @property (nonatomic, weak) IBOutlet UIImageView *thumilView;
 @property (nonatomic, weak) IBOutlet UIButton *button;
+
+-(id)initFromXib;
+
 @end

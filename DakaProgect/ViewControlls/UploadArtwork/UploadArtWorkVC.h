@@ -7,8 +7,11 @@
 //
 
 #import "CustomViewController.h"
+#import "ELCAlbumPickerController.h"
+#import "LRNavigationController.h"
+#import "CameraOverlayVC.h"
 
-@interface UploadArtWorkVC : CustomViewController<UIActionSheetDelegate>
+@interface UploadArtWorkVC : CustomViewController<UIActionSheetDelegate,CameraOverlayVCDelegate>
 
 @property (nonatomic,weak) IBOutlet UIScrollView *totalScrollView;
 

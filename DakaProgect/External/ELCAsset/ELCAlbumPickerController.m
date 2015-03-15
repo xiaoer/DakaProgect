@@ -34,8 +34,8 @@
     [super viewDidLoad];
     
 	self.assetGroups = [[NSMutableArray alloc] init];
-    self.view.backgroundColor = UIColorFromRGB(0xf1f1f1);
-    self.elcTableView.backgroundColor =UIColorFromRGB(0xf1f1f1);
+    self.view.backgroundColor = UIColorFromRGB(0xe5e5e5);
+    self.elcTableView.backgroundColor =UIColorFromRGB(0xe5e5e5);
     [UtilityFunc resetScrlView:_elcTableView contentInsetWithNaviBar:YES tabBar:NO iOS7ContentInsetStatusBarHeight:0 inidcatorInsetStatusBarHeight:-1];
     [self setNaviBarTitle:@"相册"];
     library = [[ALAssetsLibrary alloc] init];

@@ -92,6 +92,14 @@
 		BFD1DD841AB54B99005E26F2 /* ThumilView.m in Sources */ = {isa = PBXBuildFile; fileRef = BFD1DD821AB54B99005E26F2 /* ThumilView.m */; };
 		BFD1DD851AB54B99005E26F2 /* ThumilView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BFD1DD831AB54B99005E26F2 /* ThumilView.xib */; };
 		BFD1DD881AB54CA2005E26F2 /* UUID.m in Sources */ = {isa = PBXBuildFile; fileRef = BFD1DD871AB54CA2005E26F2 /* UUID.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		BFD1DD8E1AB575A4005E26F2 /* elc_final.png in Resources */ = {isa = PBXBuildFile; fileRef = BFD1DD8B1AB575A4005E26F2 /* elc_final.png */; };
+		BFD1DD8F1AB575A4005E26F2 /* elc_final@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BFD1DD8C1AB575A4005E26F2 /* elc_final@2x.png */; };
+		BFD1DD901AB575A4005E26F2 /* elc_final@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BFD1DD8D1AB575A4005E26F2 /* elc_final@3x.png */; };
+		BFD1DD921AB57836005E26F2 /* ELCAssetCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BFD1DD911AB57836005E26F2 /* ELCAssetCell.xib */; };
+		BFD1DD941AB57890005E26F2 /* ELCAsset.xib in Resources */ = {isa = PBXBuildFile; fileRef = BFD1DD931AB57890005E26F2 /* ELCAsset.xib */; };
+		BFD1DD981AB587A6005E26F2 /* elc_pic_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = BFD1DD951AB587A6005E26F2 /* elc_pic_selected.png */; };
+		BFD1DD991AB587A6005E26F2 /* elc_pic_selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BFD1DD961AB587A6005E26F2 /* elc_pic_selected@2x.png */; };
+		BFD1DD9A1AB587A6005E26F2 /* elc_pic_selected@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BFD1DD971AB587A6005E26F2 /* elc_pic_selected@3x.png */; };
 		D1F401B91A8B3DDF003D227D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D1F401B81A8B3DDF003D227D /* main.m */; };
 		D1F401BC1A8B3DDF003D227D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D1F401BB1A8B3DDF003D227D /* AppDelegate.m */; };
 		D1F401BF1A8B3DDF003D227D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1F401BE1A8B3DDF003D227D /* ViewController.m */; };
@@ -279,6 +287,14 @@
 		BFD1DD831AB54B99005E26F2 /* ThumilView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ThumilView.xib; sourceTree = "<group>"; };
 		BFD1DD861AB54CA2005E26F2 /* UUID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UUID.h; sourceTree = "<group>"; };
 		BFD1DD871AB54CA2005E26F2 /* UUID.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UUID.m; sourceTree = "<group>"; };
+		BFD1DD8B1AB575A4005E26F2 /* elc_final.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = elc_final.png; sourceTree = "<group>"; };
+		BFD1DD8C1AB575A4005E26F2 /* elc_final@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "elc_final@2x.png"; sourceTree = "<group>"; };
+		BFD1DD8D1AB575A4005E26F2 /* elc_final@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "elc_final@3x.png"; sourceTree = "<group>"; };
+		BFD1DD911AB57836005E26F2 /* ELCAssetCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ELCAssetCell.xib; sourceTree = "<group>"; };
+		BFD1DD931AB57890005E26F2 /* ELCAsset.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ELCAsset.xib; sourceTree = "<group>"; };
+		BFD1DD951AB587A6005E26F2 /* elc_pic_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = elc_pic_selected.png; sourceTree = "<group>"; };
+		BFD1DD961AB587A6005E26F2 /* elc_pic_selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "elc_pic_selected@2x.png"; sourceTree = "<group>"; };
+		BFD1DD971AB587A6005E26F2 /* elc_pic_selected@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "elc_pic_selected@3x.png"; sourceTree = "<group>"; };
 		D1F401B31A8B3DDF003D227D /* DakaProgect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DakaProgect.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1F401B71A8B3DDF003D227D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D1F401B81A8B3DDF003D227D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -647,8 +663,10 @@
 				BFD1DD3B1AB54334005E26F2 /* ELCAlbumPickerController.m */,
 				BFD1DD3C1AB54334005E26F2 /* ELCAsset.h */,
 				BFD1DD3D1AB54334005E26F2 /* ELCAsset.m */,
+				BFD1DD931AB57890005E26F2 /* ELCAsset.xib */,
 				BFD1DD3E1AB54334005E26F2 /* ELCAssetCell.h */,
 				BFD1DD3F1AB54334005E26F2 /* ELCAssetCell.m */,
+				BFD1DD911AB57836005E26F2 /* ELCAssetCell.xib */,
 				BFD1DD401AB54334005E26F2 /* ELCAssetGroupCell.h */,
 				BFD1DD411AB54334005E26F2 /* ELCAssetGroupCell.m */,
 				BFD1DD421AB54334005E26F2 /* ELCAssetGroupCell.xib */,
@@ -730,6 +748,27 @@
 			path = uploadView;
 			sourceTree = "<group>";
 		};
+		BFD1DD891AB574A8005E26F2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BFD1DD8A1AB574A8005E26F2 /* uploadArtImage */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		BFD1DD8A1AB574A8005E26F2 /* uploadArtImage */ = {
+			isa = PBXGroup;
+			children = (
+				BFD1DD951AB587A6005E26F2 /* elc_pic_selected.png */,
+				BFD1DD961AB587A6005E26F2 /* elc_pic_selected@2x.png */,
+				BFD1DD971AB587A6005E26F2 /* elc_pic_selected@3x.png */,
+				BFD1DD8B1AB575A4005E26F2 /* elc_final.png */,
+				BFD1DD8C1AB575A4005E26F2 /* elc_final@2x.png */,
+				BFD1DD8D1AB575A4005E26F2 /* elc_final@3x.png */,
+			);
+			path = uploadArtImage;
+			sourceTree = "<group>";
+		};
 		D1F401AA1A8B3DDF003D227D = {
 			isa = PBXGroup;
 			children = (
@@ -765,6 +804,7 @@
 		D1F401B51A8B3DDF003D227D /* DakaProgect */ = {
 			isa = PBXGroup;
 			children = (
+				BFD1DD891AB574A8005E26F2 /* Resources */,
 				BFD1DD7F1AB54B55005E26F2 /* UIViewS */,
 				BFD1DD0C1AB4175C005E26F2 /* NetWotk */,
 				BFD1DCFE1AB40F95005E26F2 /* ViewControlls */,
@@ -893,13 +933,21 @@
 			files = (
 				BFD1DCB01AB3FC1C005E26F2 /* TencentOpenApi_IOS_Bundle.bundle in Resources */,
 				D1F401C21A8B3DDF003D227D /* Main.storyboard in Resources */,
+				BFD1DD901AB575A4005E26F2 /* elc_final@3x.png in Resources */,
 				D1F401C71A8B3DDF003D227D /* LaunchScreen.xib in Resources */,
 				BFD1DCAC1AB3FC1C005E26F2 /* ShareSDKLocalizable.strings in Resources */,
+				BFD1DD991AB587A6005E26F2 /* elc_pic_selected@2x.png in Resources */,
+				BFD1DD921AB57836005E26F2 /* ELCAssetCell.xib in Resources */,
 				BFD1DCB21AB3FC1C005E26F2 /* WeiboSDK.bundle in Resources */,
 				BFD1DD851AB54B99005E26F2 /* ThumilView.xib in Resources */,
+				BFD1DD8F1AB575A4005E26F2 /* elc_final@2x.png in Resources */,
 				D1F401C41A8B3DDF003D227D /* Images.xcassets in Resources */,
+				BFD1DD8E1AB575A4005E26F2 /* elc_final.png in Resources */,
 				BFD1DCB51AB3FC1C005E26F2 /* ShareSDKFlatShareViewUI.bundle in Resources */,
 				BFD1DD4A1AB54334005E26F2 /* ELCAssetGroupCell.xib in Resources */,
+				BFD1DD941AB57890005E26F2 /* ELCAsset.xib in Resources */,
+				BFD1DD981AB587A6005E26F2 /* elc_pic_selected.png in Resources */,
+				BFD1DD9A1AB587A6005E26F2 /* elc_pic_selected@3x.png in Resources */,
 				BFD1DCAD1AB3FC1C005E26F2 /* Resource.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

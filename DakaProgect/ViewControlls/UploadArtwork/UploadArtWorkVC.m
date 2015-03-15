@@ -7,6 +7,8 @@
 //
 
 #import "UploadArtWorkVC.h"
+#import "DKGlobalDefine.h"
+
 
 @interface UploadArtWorkVC ()
 
@@ -17,7 +19,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     [self setNaviBarTitle:@"上传艺术品"];
-    [self.view setBackgroundColor:[UIColor redColor]];
+    [self.view setBackgroundColor:UIColorFromRGB(0xe5e5e5)];
     [UtilityFunc resetScrlView:_totalScrollView contentInsetWithNaviBar:YES tabBar:NO iOS7ContentInsetStatusBarHeight:0 inidcatorInsetStatusBarHeight:-1];
     UIButton *choosePicButton = [[UIButton alloc] init];
     [choosePicButton addTarget:self action:@selector(choosePicButtonSelected:) forControlEvents:UIControlEventTouchUpInside];
@@ -34,10 +36,28 @@
 
 - (void)actionSheet:(UIActionSheet *)actionSheet clickedButtonAtIndex:(NSInteger)buttonIndex
 {
-    if ((long)buttonIndex == 0) {
-        NSLog(@"从相册中选择");
-    }else if ((long)buttonIndex == 1){
+    if ((long)buttonIndex == 1) {
         NSLog(@"手机拍照");
+        
+        CameraOverlayVC *v =[[UIStoryboard storyboardWithName:@"Main" bundle:nil] instantiateViewControllerWithIdentifier:@"CameraOverlayVC"];
+        v.delegate = self;
+        CATransition* transition = [CATransition animation];
+        transition.duration = 0.4f;
+        transition.timingFunction = [CAMediaTimingFunction
+                                     functionWithName:kCAMediaTimingFunctionEaseInEaseOut];
+        transition.type = kCATransitionFade;
+        transition.subtype = kCATransitionFromTop;
+        [self.navigationController.view.layer addAnimation:transition forKey:nil];
+        
+        [(LRNavigationController*)self.navigationController  pushViewControllerWithLRAnimated:v];
+    }else if ((long)buttonIndex == 0){
+        NSLog(@"从相册中选择");
+        ELCAlbumPickerController *v = [[UIStoryboard storyboardWithName:@"Main" bundle:nil] instantiateViewControllerWithIdentifier:@"ELCAlbumPickerController"];
+        v.delegate = self;
+        v.selectdNum =0;
+        v.backType = 1;
+        [(LRNavigationController*)self.navigationController  pushViewControllerWithLRAnimated:v];
+    
     }
 }
 

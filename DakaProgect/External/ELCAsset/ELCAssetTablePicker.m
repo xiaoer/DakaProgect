@@ -67,7 +67,7 @@
      }];
 	[self.tableView reloadData];
     if ([self.elcAssets count] >0) {
-        [self.tableView scrollToRowAtIndexPath:[NSIndexPath indexPathForRow:(ceil([self.assetGroup numberOfAssets] / 4.0))-1 inSection:0] atScrollPosition:UITableViewScrollPositionBottom animated:NO];
+        [self.tableView scrollToRowAtIndexPath:[NSIndexPath indexPathForRow:(ceil([self.assetGroup numberOfAssets] / 3.0))-1 inSection:0] atScrollPosition:UITableViewScrollPositionBottom animated:NO];
     }
 }
 
@@ -177,6 +177,12 @@
 
 #pragma mark UITableViewDataSource Delegate Methods
 
+- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    return  ((iPhoneWidth) - 12)/3 +6;
+}
+
+
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
     // Return the number of sections.
     return 1;
@@ -184,13 +190,13 @@
 
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    return ceil([self.assetGroup numberOfAssets] / 4.0);
+    return ceil([self.assetGroup numberOfAssets] / 3.0);
 }
 
 - (NSArray*)assetsForIndexPath:(NSIndexPath*)_indexPath {
     
-	int index = (int)(_indexPath.row*4);
-	int maxIndex = (int)(_indexPath.row*4+3);
+	int index = (int)(_indexPath.row*3);
+	int maxIndex = (int)(_indexPath.row*3+2);
     
 	// DLog(@"Getting assets for %d to %d with array count %d", index, maxIndex, [assets count]);
     
@@ -199,7 +205,6 @@
 		return [NSArray arrayWithObjects:[self.elcAssets objectAtIndex:index],
 				[self.elcAssets objectAtIndex:index+1],
 				[self.elcAssets objectAtIndex:index+2],
-				[self.elcAssets objectAtIndex:index+3],
 				nil];
 	}
     
@@ -207,32 +212,25 @@
         
 		return [NSArray arrayWithObjects:[self.elcAssets objectAtIndex:index],
 				[self.elcAssets objectAtIndex:index+1],
-				[self.elcAssets objectAtIndex:index+2],
 				nil];
 	}
     
 	else if(maxIndex-2 < [self.elcAssets count]) {
         
 		return [NSArray arrayWithObjects:[self.elcAssets objectAtIndex:index],
-				[self.elcAssets objectAtIndex:index+1],
 				nil];
-	}
-    
-	else if(maxIndex-3 < [self.elcAssets count]) {
-        
-		return [NSArray arrayWithObject:[self.elcAssets objectAtIndex:index]];
 	}
     
 	return nil;
 }
 
 -(IBAction)buttonClicked:(UIButton *)sender{
-    int index = sender.tag;
+    int index =(int) sender.tag;
     AssetObject *object = [self.elcAssets objectAtIndex:index];
     if (!object.seleted) {
-        if (_selectedNum == 24)
+        if (_selectedNum ==9)
         {
-            [BIndicator showMessage:@"最多为24张，谢谢" duration:1.5f];
+            [BIndicator showMessage:@"最多为9张，谢谢" duration:1.5f];
             return;
         }
     }
@@ -252,21 +250,26 @@
 // Customize the appearance of table view cells.
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     
-    static NSString *CellIdentifier = @"Cell";
+    static NSString *CellIdentifier = @"ELCAssetCell";
         
     ELCAssetCell *cell = (ELCAssetCell*)[tableView dequeueReusableCellWithIdentifier:CellIdentifier];
-		  cell.selectionStyle = UITableViewCellSelectionStyleNone;
+	if(cell == nil)
+    {
+        cell = [[ELCAssetCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier];
+        [cell.thumil0.button addTarget:self action:@selector(buttonClicked:) forControlEvents:UIControlEventTouchUpInside];
+           [cell.thumil1.button addTarget:self action:@selector(buttonClicked:) forControlEvents:UIControlEventTouchUpInside];
+           [cell.thumil2.button addTarget:self action:@selector(buttonClicked:) forControlEvents:UIControlEventTouchUpInside];
+        cell.selectionStyle = UITableViewCellSelectionStyleNone;
+    }
     NSArray *aCellAssets = [self assetsForIndexPath:indexPath];
     
     cell.thumil0.hidden = YES;
     cell.thumil1.hidden = YES;
     cell.thumil2.hidden = YES;
-    cell.thumil3.hidden = YES;
     
     cell.thumil0.overlayView.hidden = YES;
     cell.thumil1.overlayView.hidden = YES;
     cell.thumil2.overlayView.hidden = YES;
-    cell.thumil3.overlayView.hidden = YES;
     
     switch (aCellAssets.count) {
         case 1:
@@ -274,7 +277,7 @@
             AssetObject *object0 = [aCellAssets objectAtIndex:0];
             cell.thumil0.hidden = NO;
             cell.thumil0.thumilView.image = [UIImage imageWithCGImage:object0.asset.thumbnail];
-            cell.thumil0.button.tag = indexPath.row*4 +0;
+            cell.thumil0.button.tag = indexPath.row*3 +0;
             
             cell.thumil0.overlayView.hidden = !object0.seleted;
             
@@ -286,12 +289,12 @@
             AssetObject *object1 = [aCellAssets objectAtIndex:1];
             cell.thumil0.hidden = NO;
             cell.thumil0.thumilView.image = [UIImage imageWithCGImage:object0.asset.thumbnail];
-            cell.thumil0.button.tag = indexPath.row*4 +0;
+            cell.thumil0.button.tag = indexPath.row*3 +0;
             cell.thumil0.overlayView.hidden = !object0.seleted;
             
             cell.thumil1.hidden = NO;
             cell.thumil1.thumilView.image = [UIImage imageWithCGImage:object1.asset.thumbnail];
-            cell.thumil1.button.tag = indexPath.row*4 +1;
+            cell.thumil1.button.tag = indexPath.row*3 +1;
             cell.thumil1.overlayView.hidden = !object1.seleted;
             break;
         }
@@ -302,45 +305,19 @@
             AssetObject *object2 = [aCellAssets objectAtIndex:2];
             cell.thumil0.hidden = NO;
             cell.thumil0.thumilView.image = [UIImage imageWithCGImage:object0.asset.thumbnail];
-            cell.thumil0.button.tag = indexPath.row*4 +0;
+            cell.thumil0.button.tag = indexPath.row*3 +0;
             cell.thumil0.overlayView.hidden = !object0.seleted;
             
             cell.thumil1.hidden = NO;
             cell.thumil1.thumilView.image = [UIImage imageWithCGImage:object1.asset.thumbnail];
-            cell.thumil1.button.tag = indexPath.row*4 +1;
+            cell.thumil1.button.tag = indexPath.row*3 +1;
             cell.thumil1.overlayView.hidden = !object1.seleted;
             
             cell.thumil2.hidden = NO;
             cell.thumil2.thumilView.image = [UIImage imageWithCGImage:object2.asset.thumbnail];
-            cell.thumil2.button.tag = indexPath.row*4 +2;
-            cell.thumil2.overlayView.hidden = !object2.seleted;
-            break;
-        }
-        case 4:
-        {
-            AssetObject *object0 = [aCellAssets objectAtIndex:0];
-            AssetObject *object1 = [aCellAssets objectAtIndex:1];
-            AssetObject *object2 = [aCellAssets objectAtIndex:2];
-            AssetObject *object3 = [aCellAssets objectAtIndex:3];
-            cell.thumil0.hidden = NO;
-            cell.thumil0.thumilView.image = [UIImage imageWithCGImage:object0.asset.thumbnail];
-            cell.thumil0.button.tag = indexPath.row*4 +0;
-            cell.thumil0.overlayView.hidden = !object0.seleted;
-            
-            cell.thumil1.hidden = NO;
-            cell.thumil1.thumilView.image = [UIImage imageWithCGImage:object1.asset.thumbnail];
-            cell.thumil1.button.tag = indexPath.row*4 +1;
-            cell.thumil1.overlayView.hidden = !object1.seleted;
-            
-            cell.thumil2.hidden = NO;
-            cell.thumil2.thumilView.image = [UIImage imageWithCGImage:object2.asset.thumbnail];
-            cell.thumil2.button.tag = indexPath.row*4 +2;
+            cell.thumil2.button.tag = indexPath.row*3 +2;
             cell.thumil2.overlayView.hidden = !object2.seleted;
             
-            cell.thumil3.hidden = NO;
-            cell.thumil3.thumilView.image = [UIImage imageWithCGImage:object3.asset.thumbnail];
-            cell.thumil3.button.tag = indexPath.row*4 +3;
-            cell.thumil3.overlayView.hidden = !object3.seleted;
             break;
         }
             
@@ -349,10 +326,6 @@
     }
 
     return cell;
-}
-
-- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
-    return 79;
 }
 
 - (void)viewDidUnload {

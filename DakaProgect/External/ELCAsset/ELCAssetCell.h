@@ -11,10 +11,9 @@
 @interface ELCAssetCell : UITableViewCell
 
 
-@property (nonatomic,weak) IBOutlet ELCAsset *thumil0;
-@property (nonatomic,weak) IBOutlet ELCAsset *thumil1;
-@property (nonatomic,weak) IBOutlet ELCAsset *thumil2;
-@property (nonatomic,weak) IBOutlet ELCAsset *thumil3;
+@property (nonatomic,strong)  ELCAsset *thumil0;
+@property (nonatomic,strong)  ELCAsset *thumil1;
+@property (nonatomic,strong)  ELCAsset *thumil2;
 
 
 @end

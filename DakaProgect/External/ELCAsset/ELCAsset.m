@@ -19,5 +19,16 @@
 }
 
 
+-(id)initFromXib
+{
+    self = [[[NSBundle mainBundle] loadNibNamed:@"ELCAsset" owner:self options:nil] lastObject];
+    if(self)
+    {
+        
+    }
+    return self;
+    
+}
+
 @end
 

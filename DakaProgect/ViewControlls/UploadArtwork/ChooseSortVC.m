@@ -12,6 +12,8 @@
 #import "LRNavigationController.h"
 #import "SliderViewController.h"
 #import "UploadArtWorkVC.h"
+#import "DKGlobalDefine.h"
+
 
 @interface ChooseSortVC ()
 
@@ -22,9 +24,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     [self setNaviBarTitle:@"选择分类"];
-    [self.view setBackgroundColor:[UIColor whiteColor]];
+    [self.view setBackgroundColor:UIColorFromRGB(0xe5e5e5)];
      [UtilityFunc resetScrlView:_totalScrollView contentInsetWithNaviBar:YES tabBar:NO iOS7ContentInsetStatusBarHeight:0 inidcatorInsetStatusBarHeight:-1];
-    _totalScrollView.backgroundColor = [UIColor blackColor];
+    _totalScrollView.backgroundColor = UIColorFromRGB(0xe5e5e5);
     NSMutableArray *nameArray = [[NSMutableArray alloc] initWithObjects:@"版画",@"丙烯",@"瓷器",@"雕塑装置",@"民间美术",@"书法手稿",@"水彩",@"水墨",@"素描手绘",@"艺术衍生品",@"油画",@"玉器",@"杂项",@"综合材料", nil];
     
     CGRect rect = CGRectZero;
