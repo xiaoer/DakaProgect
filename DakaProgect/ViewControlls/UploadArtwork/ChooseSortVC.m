@@ -27,8 +27,8 @@
     [self.view setBackgroundColor:UIColorFromRGB(0xe5e5e5)];
      [UtilityFunc resetScrlView:_totalScrollView contentInsetWithNaviBar:YES tabBar:NO iOS7ContentInsetStatusBarHeight:0 inidcatorInsetStatusBarHeight:-1];
     _totalScrollView.backgroundColor = UIColorFromRGB(0xe5e5e5);
-    NSMutableArray *nameArray = [[NSMutableArray alloc] initWithObjects:@"版画",@"丙烯",@"瓷器",@"雕塑装置",@"民间美术",@"书法手稿",@"水彩",@"水墨",@"素描手绘",@"艺术衍生品",@"油画",@"玉器",@"杂项",@"综合材料", nil];
-    
+    NSMutableArray *nameArray = [[NSMutableArray alloc] initWithObjects:@"版画",@"丙烯",@"瓷器",@"雕塑装置",@"民间美术",@"书法手稿",@"水彩",@"水墨",@"素描手绘",@"艺术衍生品",@"油画",@"玉器",@"杂项",@"综合材料",@"视频",nil];
+    NSMutableArray *tagsArray = [[NSMutableArray alloc] initWithObjects:@"100",@"101",@"102",@"103",@"104",@"105",@"106",@"107",@"108",@"109",@"110",@"111",@"112",@"113",@"114", nil];
     CGRect rect = CGRectZero;
     rect.origin.x = 10;
     rect.origin.y = 10;
@@ -39,7 +39,7 @@
         UIButton *button = [[UIButton alloc] init];
         [button setTitle:[nameArray objectAtIndex:i] forState:UIControlStateNormal];
         button.backgroundColor = [UIColor redColor];
-        button.tag = 100 +i;
+        button.tag = [[tagsArray objectAtIndex:i] intValue];
         button.frame = rect;
         [button addTarget:self action:@selector(sortButtonSelected:) forControlEvents:UIControlEventTouchUpInside];
         [_totalScrollView addSubview:button];
@@ -54,24 +54,12 @@
 
 -(void)sortButtonSelected:(UIButton *)sendButton
 {
-    NSLog(@"sendbutton tag is %ld",(long)sendButton.tag);
     UploadArtWorkVC *artWorkVC = [[UIStoryboard storyboardWithName:@"Main" bundle:nil] instantiateViewControllerWithIdentifier:@"UploadArtWorkVC"];
     [(LRNavigationController*)[SliderViewController sharedSliderController].navigationController  pushViewControllerWithLRAnimated:artWorkVC];
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
-
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
 
 @end

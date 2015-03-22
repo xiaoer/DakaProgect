@@ -133,8 +133,6 @@
 #pragma mark Table view delegate
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-	
-    
 	ELCAssetTablePicker *picker = [[UIStoryboard storyboardWithName:@"Main" bundle:nil] instantiateViewControllerWithIdentifier:@"elc_table_picker"];
     picker.delegate = self;
     picker.selectedNum = _selectdNum;
@@ -163,8 +161,6 @@
 
 - (void)viewDidUnload {
     library = nil;
-    // Relinquish ownership of anything that can be recreated in viewDidLoad or on demand.
-    // For example: self.myOutlet = nil;
 }
 
 #pragma mark-

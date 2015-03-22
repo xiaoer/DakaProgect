@@ -11,8 +11,29 @@
 #import "LRNavigationController.h"
 #import "CameraOverlayVC.h"
 
+
+#import "UPBaseView.h"
+#import "UPVideoView.h"
+#import "UPBanhuaView.h"
+#import "UPBingXiView.h"
+#import "UPChiQiView.h"
+#import "UPDiaoShuView.h"
+#import "UPMeiShuView.h"
+#import "UPShuFaView.h"
+#import "UPShuiCaiView.h"
+#import "UPShuiMouView.h"
+#import "UPShouHuiView.h"
+#import "UPYanShenView.h"
+#import "UPYouHuaView.h"
+#import "UPYuQiView.h"
+#import "UPZhaXianView.h"
+#import "UPZongHeView.h"
+
+
 @interface UploadArtWorkVC : CustomViewController<UIActionSheetDelegate,CameraOverlayVCDelegate>
 
 @property (nonatomic,weak) IBOutlet UIScrollView *totalScrollView;
+
+@property (nonatomic) int tag;
 
 @end

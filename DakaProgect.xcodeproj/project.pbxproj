@@ -7,6 +7,38 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BF1CF1451ABE8E2E00918488 /* UPVideoView.m in Sources */ = {isa = PBXBuildFile; fileRef = BF1CF1441ABE8E2E00918488 /* UPVideoView.m */; };
+		BF1CF1471ABE8E4700918488 /* UPVideoView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF1CF1461ABE8E4700918488 /* UPVideoView.xib */; };
+		BF1CF14A1ABE8E8B00918488 /* UPBanhuaView.m in Sources */ = {isa = PBXBuildFile; fileRef = BF1CF1491ABE8E8B00918488 /* UPBanhuaView.m */; };
+		BF1CF14C1ABE8E9B00918488 /* UPBanhuaView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF1CF14B1ABE8E9B00918488 /* UPBanhuaView.xib */; };
+		BF1CF14F1ABE8EBC00918488 /* UPBingXiView.m in Sources */ = {isa = PBXBuildFile; fileRef = BF1CF14E1ABE8EBC00918488 /* UPBingXiView.m */; };
+		BF1CF1511ABE8ECE00918488 /* UPBingXiView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF1CF1501ABE8ECE00918488 /* UPBingXiView.xib */; };
+		BF1CF1541ABE8EF500918488 /* UPChiQiView.m in Sources */ = {isa = PBXBuildFile; fileRef = BF1CF1531ABE8EF500918488 /* UPChiQiView.m */; };
+		BF1CF1561ABE8F0900918488 /* UPChiQiView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF1CF1551ABE8F0900918488 /* UPChiQiView.xib */; };
+		BF1CF1591ABE8F5300918488 /* UPDiaoShuView.m in Sources */ = {isa = PBXBuildFile; fileRef = BF1CF1581ABE8F5300918488 /* UPDiaoShuView.m */; };
+		BF1CF15B1ABE8F6800918488 /* UPDiaoShuView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF1CF15A1ABE8F6800918488 /* UPDiaoShuView.xib */; };
+		BF1CF15E1ABE8F9A00918488 /* UPMeiShuView.m in Sources */ = {isa = PBXBuildFile; fileRef = BF1CF15D1ABE8F9A00918488 /* UPMeiShuView.m */; };
+		BF1CF1601ABE8FAD00918488 /* UPMeiShuView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF1CF15F1ABE8FAD00918488 /* UPMeiShuView.xib */; };
+		BF1CF1631ABE8FF500918488 /* UPShuFaView.m in Sources */ = {isa = PBXBuildFile; fileRef = BF1CF1621ABE8FF500918488 /* UPShuFaView.m */; };
+		BF1CF1651ABE900500918488 /* UPShuFaView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF1CF1641ABE900500918488 /* UPShuFaView.xib */; };
+		BF1CF1681ABE906B00918488 /* UPShuiCaiView.m in Sources */ = {isa = PBXBuildFile; fileRef = BF1CF1671ABE906B00918488 /* UPShuiCaiView.m */; };
+		BF1CF16A1ABE907C00918488 /* UPShuiCaiView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF1CF1691ABE907C00918488 /* UPShuiCaiView.xib */; };
+		BF1CF16D1ABE90B000918488 /* UPShuiMouView.m in Sources */ = {isa = PBXBuildFile; fileRef = BF1CF16C1ABE90B000918488 /* UPShuiMouView.m */; };
+		BF1CF16F1ABE90C500918488 /* UPShuiMouView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF1CF16E1ABE90C500918488 /* UPShuiMouView.xib */; };
+		BF1CF1721ABE90F400918488 /* UPShouHuiView.m in Sources */ = {isa = PBXBuildFile; fileRef = BF1CF1711ABE90F400918488 /* UPShouHuiView.m */; };
+		BF1CF1741ABE910D00918488 /* UPShouHuiView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF1CF1731ABE910D00918488 /* UPShouHuiView.xib */; };
+		BF1CF1771ABE914D00918488 /* UPYanShenView.m in Sources */ = {isa = PBXBuildFile; fileRef = BF1CF1761ABE914D00918488 /* UPYanShenView.m */; };
+		BF1CF1791ABE916F00918488 /* UPYanShenView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF1CF1781ABE916F00918488 /* UPYanShenView.xib */; };
+		BF1CF17C1ABE919600918488 /* UPYouHuaView.m in Sources */ = {isa = PBXBuildFile; fileRef = BF1CF17B1ABE919600918488 /* UPYouHuaView.m */; };
+		BF1CF17E1ABE91A400918488 /* UPYouHuaView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF1CF17D1ABE91A400918488 /* UPYouHuaView.xib */; };
+		BF1CF1811ABE91D900918488 /* UPYuQiView.m in Sources */ = {isa = PBXBuildFile; fileRef = BF1CF1801ABE91D900918488 /* UPYuQiView.m */; };
+		BF1CF1831ABE91EB00918488 /* UPYuQiView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF1CF1821ABE91EB00918488 /* UPYuQiView.xib */; };
+		BF1CF1861ABE921600918488 /* UPZhaXianView.m in Sources */ = {isa = PBXBuildFile; fileRef = BF1CF1851ABE921600918488 /* UPZhaXianView.m */; };
+		BF1CF1881ABE922B00918488 /* UPZhaXianView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF1CF1871ABE922B00918488 /* UPZhaXianView.xib */; };
+		BF1CF18B1ABE924A00918488 /* UPZongHeView.m in Sources */ = {isa = PBXBuildFile; fileRef = BF1CF18A1ABE924A00918488 /* UPZongHeView.m */; };
+		BF1CF18D1ABE925D00918488 /* UPZongHeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF1CF18C1ABE925D00918488 /* UPZongHeView.xib */; };
+		BF1CF1901ABE92C500918488 /* UPBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = BF1CF18F1ABE92C500918488 /* UPBaseView.m */; };
+		BF1CF1921ABE94E300918488 /* UPBaseView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF1CF1911ABE94E300918488 /* UPBaseView.xib */; };
 		BFD1DC781AB3F8AE005E26F2 /* CustomNaviBarSearchController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFD1DC6E1AB3F8AE005E26F2 /* CustomNaviBarSearchController.m */; };
 		BFD1DC791AB3F8AE005E26F2 /* CustomNaviBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = BFD1DC701AB3F8AE005E26F2 /* CustomNaviBarView.m */; };
 		BFD1DC7A1AB3F8AE005E26F2 /* CustomNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFD1DC721AB3F8AE005E26F2 /* CustomNavigationController.m */; };
@@ -120,6 +152,54 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BF1CF1431ABE8E2E00918488 /* UPVideoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPVideoView.h; sourceTree = "<group>"; };
+		BF1CF1441ABE8E2E00918488 /* UPVideoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UPVideoView.m; sourceTree = "<group>"; };
+		BF1CF1461ABE8E4700918488 /* UPVideoView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UPVideoView.xib; sourceTree = "<group>"; };
+		BF1CF1481ABE8E8B00918488 /* UPBanhuaView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPBanhuaView.h; sourceTree = "<group>"; };
+		BF1CF1491ABE8E8B00918488 /* UPBanhuaView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UPBanhuaView.m; sourceTree = "<group>"; };
+		BF1CF14B1ABE8E9B00918488 /* UPBanhuaView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UPBanhuaView.xib; sourceTree = "<group>"; };
+		BF1CF14D1ABE8EBC00918488 /* UPBingXiView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPBingXiView.h; sourceTree = "<group>"; };
+		BF1CF14E1ABE8EBC00918488 /* UPBingXiView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UPBingXiView.m; sourceTree = "<group>"; };
+		BF1CF1501ABE8ECE00918488 /* UPBingXiView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UPBingXiView.xib; sourceTree = "<group>"; };
+		BF1CF1521ABE8EF500918488 /* UPChiQiView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPChiQiView.h; sourceTree = "<group>"; };
+		BF1CF1531ABE8EF500918488 /* UPChiQiView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UPChiQiView.m; sourceTree = "<group>"; };
+		BF1CF1551ABE8F0900918488 /* UPChiQiView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UPChiQiView.xib; sourceTree = "<group>"; };
+		BF1CF1571ABE8F5300918488 /* UPDiaoShuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPDiaoShuView.h; sourceTree = "<group>"; };
+		BF1CF1581ABE8F5300918488 /* UPDiaoShuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UPDiaoShuView.m; sourceTree = "<group>"; };
+		BF1CF15A1ABE8F6800918488 /* UPDiaoShuView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UPDiaoShuView.xib; sourceTree = "<group>"; };
+		BF1CF15C1ABE8F9A00918488 /* UPMeiShuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPMeiShuView.h; sourceTree = "<group>"; };
+		BF1CF15D1ABE8F9A00918488 /* UPMeiShuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UPMeiShuView.m; sourceTree = "<group>"; };
+		BF1CF15F1ABE8FAD00918488 /* UPMeiShuView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UPMeiShuView.xib; sourceTree = "<group>"; };
+		BF1CF1611ABE8FF500918488 /* UPShuFaView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPShuFaView.h; sourceTree = "<group>"; };
+		BF1CF1621ABE8FF500918488 /* UPShuFaView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UPShuFaView.m; sourceTree = "<group>"; };
+		BF1CF1641ABE900500918488 /* UPShuFaView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UPShuFaView.xib; sourceTree = "<group>"; };
+		BF1CF1661ABE906B00918488 /* UPShuiCaiView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPShuiCaiView.h; sourceTree = "<group>"; };
+		BF1CF1671ABE906B00918488 /* UPShuiCaiView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UPShuiCaiView.m; sourceTree = "<group>"; };
+		BF1CF1691ABE907C00918488 /* UPShuiCaiView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UPShuiCaiView.xib; sourceTree = "<group>"; };
+		BF1CF16B1ABE90B000918488 /* UPShuiMouView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPShuiMouView.h; sourceTree = "<group>"; };
+		BF1CF16C1ABE90B000918488 /* UPShuiMouView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UPShuiMouView.m; sourceTree = "<group>"; };
+		BF1CF16E1ABE90C500918488 /* UPShuiMouView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UPShuiMouView.xib; sourceTree = "<group>"; };
+		BF1CF1701ABE90F400918488 /* UPShouHuiView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPShouHuiView.h; sourceTree = "<group>"; };
+		BF1CF1711ABE90F400918488 /* UPShouHuiView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UPShouHuiView.m; sourceTree = "<group>"; };
+		BF1CF1731ABE910D00918488 /* UPShouHuiView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UPShouHuiView.xib; sourceTree = "<group>"; };
+		BF1CF1751ABE914D00918488 /* UPYanShenView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPYanShenView.h; sourceTree = "<group>"; };
+		BF1CF1761ABE914D00918488 /* UPYanShenView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UPYanShenView.m; sourceTree = "<group>"; };
+		BF1CF1781ABE916F00918488 /* UPYanShenView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UPYanShenView.xib; sourceTree = "<group>"; };
+		BF1CF17A1ABE919600918488 /* UPYouHuaView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPYouHuaView.h; sourceTree = "<group>"; };
+		BF1CF17B1ABE919600918488 /* UPYouHuaView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UPYouHuaView.m; sourceTree = "<group>"; };
+		BF1CF17D1ABE91A400918488 /* UPYouHuaView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UPYouHuaView.xib; sourceTree = "<group>"; };
+		BF1CF17F1ABE91D900918488 /* UPYuQiView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPYuQiView.h; sourceTree = "<group>"; };
+		BF1CF1801ABE91D900918488 /* UPYuQiView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UPYuQiView.m; sourceTree = "<group>"; };
+		BF1CF1821ABE91EB00918488 /* UPYuQiView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UPYuQiView.xib; sourceTree = "<group>"; };
+		BF1CF1841ABE921600918488 /* UPZhaXianView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPZhaXianView.h; sourceTree = "<group>"; };
+		BF1CF1851ABE921600918488 /* UPZhaXianView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UPZhaXianView.m; sourceTree = "<group>"; };
+		BF1CF1871ABE922B00918488 /* UPZhaXianView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UPZhaXianView.xib; sourceTree = "<group>"; };
+		BF1CF1891ABE924A00918488 /* UPZongHeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPZongHeView.h; sourceTree = "<group>"; };
+		BF1CF18A1ABE924A00918488 /* UPZongHeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UPZongHeView.m; sourceTree = "<group>"; };
+		BF1CF18C1ABE925D00918488 /* UPZongHeView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UPZongHeView.xib; sourceTree = "<group>"; };
+		BF1CF18E1ABE92C500918488 /* UPBaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPBaseView.h; sourceTree = "<group>"; };
+		BF1CF18F1ABE92C500918488 /* UPBaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UPBaseView.m; sourceTree = "<group>"; };
+		BF1CF1911ABE94E300918488 /* UPBaseView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UPBaseView.xib; sourceTree = "<group>"; };
 		BFD1DC6D1AB3F8AE005E26F2 /* CustomNaviBarSearchController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomNaviBarSearchController.h; sourceTree = "<group>"; };
 		BFD1DC6E1AB3F8AE005E26F2 /* CustomNaviBarSearchController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomNaviBarSearchController.m; sourceTree = "<group>"; };
 		BFD1DC6F1AB3F8AE005E26F2 /* CustomNaviBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomNaviBarView.h; sourceTree = "<group>"; };
@@ -744,6 +824,54 @@
 				BFD1DD811AB54B99005E26F2 /* ThumilView.h */,
 				BFD1DD821AB54B99005E26F2 /* ThumilView.m */,
 				BFD1DD831AB54B99005E26F2 /* ThumilView.xib */,
+				BF1CF18E1ABE92C500918488 /* UPBaseView.h */,
+				BF1CF18F1ABE92C500918488 /* UPBaseView.m */,
+				BF1CF1911ABE94E300918488 /* UPBaseView.xib */,
+				BF1CF1431ABE8E2E00918488 /* UPVideoView.h */,
+				BF1CF1441ABE8E2E00918488 /* UPVideoView.m */,
+				BF1CF1461ABE8E4700918488 /* UPVideoView.xib */,
+				BF1CF1481ABE8E8B00918488 /* UPBanhuaView.h */,
+				BF1CF1491ABE8E8B00918488 /* UPBanhuaView.m */,
+				BF1CF14B1ABE8E9B00918488 /* UPBanhuaView.xib */,
+				BF1CF14D1ABE8EBC00918488 /* UPBingXiView.h */,
+				BF1CF14E1ABE8EBC00918488 /* UPBingXiView.m */,
+				BF1CF1501ABE8ECE00918488 /* UPBingXiView.xib */,
+				BF1CF1521ABE8EF500918488 /* UPChiQiView.h */,
+				BF1CF1531ABE8EF500918488 /* UPChiQiView.m */,
+				BF1CF1551ABE8F0900918488 /* UPChiQiView.xib */,
+				BF1CF1571ABE8F5300918488 /* UPDiaoShuView.h */,
+				BF1CF1581ABE8F5300918488 /* UPDiaoShuView.m */,
+				BF1CF15A1ABE8F6800918488 /* UPDiaoShuView.xib */,
+				BF1CF15C1ABE8F9A00918488 /* UPMeiShuView.h */,
+				BF1CF15D1ABE8F9A00918488 /* UPMeiShuView.m */,
+				BF1CF15F1ABE8FAD00918488 /* UPMeiShuView.xib */,
+				BF1CF1611ABE8FF500918488 /* UPShuFaView.h */,
+				BF1CF1621ABE8FF500918488 /* UPShuFaView.m */,
+				BF1CF1641ABE900500918488 /* UPShuFaView.xib */,
+				BF1CF1661ABE906B00918488 /* UPShuiCaiView.h */,
+				BF1CF1671ABE906B00918488 /* UPShuiCaiView.m */,
+				BF1CF1691ABE907C00918488 /* UPShuiCaiView.xib */,
+				BF1CF16B1ABE90B000918488 /* UPShuiMouView.h */,
+				BF1CF16C1ABE90B000918488 /* UPShuiMouView.m */,
+				BF1CF16E1ABE90C500918488 /* UPShuiMouView.xib */,
+				BF1CF1701ABE90F400918488 /* UPShouHuiView.h */,
+				BF1CF1711ABE90F400918488 /* UPShouHuiView.m */,
+				BF1CF1731ABE910D00918488 /* UPShouHuiView.xib */,
+				BF1CF1751ABE914D00918488 /* UPYanShenView.h */,
+				BF1CF1761ABE914D00918488 /* UPYanShenView.m */,
+				BF1CF1781ABE916F00918488 /* UPYanShenView.xib */,
+				BF1CF17A1ABE919600918488 /* UPYouHuaView.h */,
+				BF1CF17B1ABE919600918488 /* UPYouHuaView.m */,
+				BF1CF17D1ABE91A400918488 /* UPYouHuaView.xib */,
+				BF1CF17F1ABE91D900918488 /* UPYuQiView.h */,
+				BF1CF1801ABE91D900918488 /* UPYuQiView.m */,
+				BF1CF1821ABE91EB00918488 /* UPYuQiView.xib */,
+				BF1CF1841ABE921600918488 /* UPZhaXianView.h */,
+				BF1CF1851ABE921600918488 /* UPZhaXianView.m */,
+				BF1CF1871ABE922B00918488 /* UPZhaXianView.xib */,
+				BF1CF1891ABE924A00918488 /* UPZongHeView.h */,
+				BF1CF18A1ABE924A00918488 /* UPZongHeView.m */,
+				BF1CF18C1ABE925D00918488 /* UPZongHeView.xib */,
 			);
 			path = uploadView;
 			sourceTree = "<group>";
@@ -932,23 +1060,39 @@
 			buildActionMask = 2147483647;
 			files = (
 				BFD1DCB01AB3FC1C005E26F2 /* TencentOpenApi_IOS_Bundle.bundle in Resources */,
+				BF1CF1791ABE916F00918488 /* UPYanShenView.xib in Resources */,
 				D1F401C21A8B3DDF003D227D /* Main.storyboard in Resources */,
+				BF1CF18D1ABE925D00918488 /* UPZongHeView.xib in Resources */,
 				BFD1DD901AB575A4005E26F2 /* elc_final@3x.png in Resources */,
 				D1F401C71A8B3DDF003D227D /* LaunchScreen.xib in Resources */,
 				BFD1DCAC1AB3FC1C005E26F2 /* ShareSDKLocalizable.strings in Resources */,
 				BFD1DD991AB587A6005E26F2 /* elc_pic_selected@2x.png in Resources */,
 				BFD1DD921AB57836005E26F2 /* ELCAssetCell.xib in Resources */,
+				BF1CF1741ABE910D00918488 /* UPShouHuiView.xib in Resources */,
 				BFD1DCB21AB3FC1C005E26F2 /* WeiboSDK.bundle in Resources */,
+				BF1CF14C1ABE8E9B00918488 /* UPBanhuaView.xib in Resources */,
 				BFD1DD851AB54B99005E26F2 /* ThumilView.xib in Resources */,
+				BF1CF1511ABE8ECE00918488 /* UPBingXiView.xib in Resources */,
+				BF1CF1921ABE94E300918488 /* UPBaseView.xib in Resources */,
 				BFD1DD8F1AB575A4005E26F2 /* elc_final@2x.png in Resources */,
+				BF1CF1651ABE900500918488 /* UPShuFaView.xib in Resources */,
 				D1F401C41A8B3DDF003D227D /* Images.xcassets in Resources */,
 				BFD1DD8E1AB575A4005E26F2 /* elc_final.png in Resources */,
+				BF1CF1561ABE8F0900918488 /* UPChiQiView.xib in Resources */,
 				BFD1DCB51AB3FC1C005E26F2 /* ShareSDKFlatShareViewUI.bundle in Resources */,
 				BFD1DD4A1AB54334005E26F2 /* ELCAssetGroupCell.xib in Resources */,
+				BF1CF16A1ABE907C00918488 /* UPShuiCaiView.xib in Resources */,
+				BF1CF1881ABE922B00918488 /* UPZhaXianView.xib in Resources */,
+				BF1CF1471ABE8E4700918488 /* UPVideoView.xib in Resources */,
+				BF1CF17E1ABE91A400918488 /* UPYouHuaView.xib in Resources */,
+				BF1CF15B1ABE8F6800918488 /* UPDiaoShuView.xib in Resources */,
 				BFD1DD941AB57890005E26F2 /* ELCAsset.xib in Resources */,
+				BF1CF1831ABE91EB00918488 /* UPYuQiView.xib in Resources */,
+				BF1CF1601ABE8FAD00918488 /* UPMeiShuView.xib in Resources */,
 				BFD1DD981AB587A6005E26F2 /* elc_pic_selected.png in Resources */,
 				BFD1DD9A1AB587A6005E26F2 /* elc_pic_selected@3x.png in Resources */,
 				BFD1DCAD1AB3FC1C005E26F2 /* Resource.bundle in Resources */,
+				BF1CF16F1ABE90C500918488 /* UPShuiMouView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -971,9 +1115,11 @@
 				D1F401BF1A8B3DDF003D227D /* ViewController.m in Sources */,
 				BFD1DCF11AB40C3D005E26F2 /* ASIDataCompressor.m in Sources */,
 				BFD1DCD71AB403BA005E26F2 /* DKUIViewController.m in Sources */,
+				BF1CF1901ABE92C500918488 /* UPBaseView.m in Sources */,
 				BFD1DD081AB4105D005E26F2 /* SharedHisVC.m in Sources */,
 				BFD1DCF71AB40C3D005E26F2 /* ASINetworkQueue.m in Sources */,
 				BFD1DD651AB54641005E26F2 /* AVCamRecorder.m in Sources */,
+				BF1CF16D1ABE90B000918488 /* UPShuiMouView.m in Sources */,
 				BFD1DCDA1AB403F0005E26F2 /* LeftVC.m in Sources */,
 				BFD1DD641AB54641005E26F2 /* AVCamCaptureManager.m in Sources */,
 				BFD1DD0B1AB4109E005E26F2 /* MyArtworkVC.m in Sources */,
@@ -981,7 +1127,9 @@
 				BFD1DD051AB41029005E26F2 /* DraftVC.m in Sources */,
 				D1F401BC1A8B3DDF003D227D /* AppDelegate.m in Sources */,
 				BFD1DD7E1AB54A7B005E26F2 /* LxUI.m in Sources */,
+				BF1CF18B1ABE924A00918488 /* UPZongHeView.m in Sources */,
 				BFD1DD021AB40FE0005E26F2 /* SettingVC.m in Sources */,
+				BF1CF1861ABE921600918488 /* UPZhaXianView.m in Sources */,
 				BFD1DCF31AB40C3D005E26F2 /* ASIDownloadCache.m in Sources */,
 				BFD1DD841AB54B99005E26F2 /* ThumilView.m in Sources */,
 				BFD1DD661AB54641005E26F2 /* AVCamUtilities.m in Sources */,
@@ -992,26 +1140,38 @@
 				BFD1DD451AB54334005E26F2 /* AssetObject.m in Sources */,
 				BFD1DD131AB41F43005E26F2 /* ChooseSortVC.m in Sources */,
 				BFD1DD7B1AB549D0005E26F2 /* FileHelper.m in Sources */,
+				BF1CF14F1ABE8EBC00918488 /* UPBingXiView.m in Sources */,
+				BF1CF1681ABE906B00918488 /* UPShuiCaiView.m in Sources */,
+				BF1CF17C1ABE919600918488 /* UPYouHuaView.m in Sources */,
 				BFD1DD741AB546BA005E26F2 /* GMGridView.m in Sources */,
+				BF1CF1721ABE90F400918488 /* UPShouHuiView.m in Sources */,
 				BFD1DD781AB546BA005E26F2 /* UIView+GMGridViewAdditions.m in Sources */,
 				BFD1DD771AB546BA005E26F2 /* UIGestureRecognizer+GMGridViewAdditions.m in Sources */,
 				BFD1DC7B1AB3F8AE005E26F2 /* CustomViewController.m in Sources */,
 				BFD1DCFD1AB40DE1005E26F2 /* Reachability.m in Sources */,
 				BFD1DC791AB3F8AE005E26F2 /* CustomNaviBarView.m in Sources */,
+				BF1CF1631ABE8FF500918488 /* UPShuFaView.m in Sources */,
 				BFD1DCF01AB40C3D005E26F2 /* ASIAuthenticationDialog.m in Sources */,
+				BF1CF14A1ABE8E8B00918488 /* UPBanhuaView.m in Sources */,
 				BFD1DD461AB54334005E26F2 /* ELCAlbumPickerController.m in Sources */,
 				BFD1DC781AB3F8AE005E26F2 /* CustomNaviBarSearchController.m in Sources */,
 				BFD1DCF51AB40C3D005E26F2 /* ASIHTTPRequest.m in Sources */,
 				BFD1DD5B1AB544E0005E26F2 /* ISIrisElementLayer.m in Sources */,
+				BF1CF1591ABE8F5300918488 /* UPDiaoShuView.m in Sources */,
 				BFD1DC7A1AB3F8AE005E26F2 /* CustomNavigationController.m in Sources */,
 				BFD1DD471AB54334005E26F2 /* ELCAsset.m in Sources */,
+				BF1CF1811ABE91D900918488 /* UPYuQiView.m in Sources */,
 				BFD1DCD31AB401DE005E26F2 /* LRNavigationController.m in Sources */,
 				BFD1DCCF1AB401CF005E26F2 /* SliderViewController.m in Sources */,
+				BF1CF1771ABE914D00918488 /* UPYanShenView.m in Sources */,
 				BFD1DD4B1AB54334005E26F2 /* ELCAssetTablePicker.m in Sources */,
 				BFD1DD751AB546BA005E26F2 /* GMGridViewCell.m in Sources */,
+				BF1CF1451ABE8E2E00918488 /* UPVideoView.m in Sources */,
 				BFD1DD511AB54393005E26F2 /* BIndicator.m in Sources */,
 				D1F401B91A8B3DDF003D227D /* main.m in Sources */,
+				BF1CF1541ABE8EF500918488 /* UPChiQiView.m in Sources */,
 				BFD1DD521AB54393005E26F2 /* MBProgressHUD.m in Sources */,
+				BF1CF15E1ABE8F9A00918488 /* UPMeiShuView.m in Sources */,
 				BFD1DCF41AB40C3D005E26F2 /* ASIFormDataRequest.m in Sources */,
 				BFD1DD481AB54334005E26F2 /* ELCAssetCell.m in Sources */,
 				BFD1DCF21AB40C3D005E26F2 /* ASIDataDecompressor.m in Sources */,
