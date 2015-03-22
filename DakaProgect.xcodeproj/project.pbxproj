@@ -39,6 +39,9 @@
 		BF1CF18D1ABE925D00918488 /* UPZongHeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF1CF18C1ABE925D00918488 /* UPZongHeView.xib */; };
 		BF1CF1901ABE92C500918488 /* UPBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = BF1CF18F1ABE92C500918488 /* UPBaseView.m */; };
 		BF1CF1921ABE94E300918488 /* UPBaseView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF1CF1911ABE94E300918488 /* UPBaseView.xib */; };
+		BF1CF1971ABEABB300918488 /* up_base_info.png in Resources */ = {isa = PBXBuildFile; fileRef = BF1CF1941ABEABB200918488 /* up_base_info.png */; };
+		BF1CF1981ABEABB300918488 /* up_base_info@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF1CF1951ABEABB300918488 /* up_base_info@2x.png */; };
+		BF1CF1991ABEABB300918488 /* up_base_info@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF1CF1961ABEABB300918488 /* up_base_info@3x.png */; };
 		BFD1DC781AB3F8AE005E26F2 /* CustomNaviBarSearchController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFD1DC6E1AB3F8AE005E26F2 /* CustomNaviBarSearchController.m */; };
 		BFD1DC791AB3F8AE005E26F2 /* CustomNaviBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = BFD1DC701AB3F8AE005E26F2 /* CustomNaviBarView.m */; };
 		BFD1DC7A1AB3F8AE005E26F2 /* CustomNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFD1DC721AB3F8AE005E26F2 /* CustomNavigationController.m */; };
@@ -201,6 +204,9 @@
 		BF1CF18F1ABE92C500918488 /* UPBaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UPBaseView.m; sourceTree = "<group>"; };
 		BF1CF1911ABE94E300918488 /* UPBaseView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UPBaseView.xib; sourceTree = "<group>"; };
 		BF1CF1931ABE9AAF00918488 /* DakaProgect-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DakaProgect-Prefix.pch"; sourceTree = "<group>"; };
+		BF1CF1941ABEABB200918488 /* up_base_info.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = up_base_info.png; sourceTree = "<group>"; };
+		BF1CF1951ABEABB300918488 /* up_base_info@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "up_base_info@2x.png"; sourceTree = "<group>"; };
+		BF1CF1961ABEABB300918488 /* up_base_info@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "up_base_info@3x.png"; sourceTree = "<group>"; };
 		BFD1DC6D1AB3F8AE005E26F2 /* CustomNaviBarSearchController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomNaviBarSearchController.h; sourceTree = "<group>"; };
 		BFD1DC6E1AB3F8AE005E26F2 /* CustomNaviBarSearchController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomNaviBarSearchController.m; sourceTree = "<group>"; };
 		BFD1DC6F1AB3F8AE005E26F2 /* CustomNaviBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomNaviBarView.h; sourceTree = "<group>"; };
@@ -888,6 +894,9 @@
 		BFD1DD8A1AB574A8005E26F2 /* uploadArtImage */ = {
 			isa = PBXGroup;
 			children = (
+				BF1CF1941ABEABB200918488 /* up_base_info.png */,
+				BF1CF1951ABEABB300918488 /* up_base_info@2x.png */,
+				BF1CF1961ABEABB300918488 /* up_base_info@3x.png */,
 				BFD1DD951AB587A6005E26F2 /* elc_pic_selected.png */,
 				BFD1DD961AB587A6005E26F2 /* elc_pic_selected@2x.png */,
 				BFD1DD971AB587A6005E26F2 /* elc_pic_selected@3x.png */,
@@ -1068,6 +1077,8 @@
 				BFD1DD901AB575A4005E26F2 /* elc_final@3x.png in Resources */,
 				D1F401C71A8B3DDF003D227D /* LaunchScreen.xib in Resources */,
 				BFD1DCAC1AB3FC1C005E26F2 /* ShareSDKLocalizable.strings in Resources */,
+				BF1CF1971ABEABB300918488 /* up_base_info.png in Resources */,
+				BF1CF1991ABEABB300918488 /* up_base_info@3x.png in Resources */,
 				BFD1DD991AB587A6005E26F2 /* elc_pic_selected@2x.png in Resources */,
 				BFD1DD921AB57836005E26F2 /* ELCAssetCell.xib in Resources */,
 				BF1CF1741ABE910D00918488 /* UPShouHuiView.xib in Resources */,
@@ -1094,6 +1105,7 @@
 				BFD1DD981AB587A6005E26F2 /* elc_pic_selected.png in Resources */,
 				BFD1DD9A1AB587A6005E26F2 /* elc_pic_selected@3x.png in Resources */,
 				BFD1DCAD1AB3FC1C005E26F2 /* Resource.bundle in Resources */,
+				BF1CF1981ABEABB300918488 /* up_base_info@2x.png in Resources */,
 				BF1CF16F1ABE90C500918488 /* UPShuiMouView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
