@@ -9,5 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface UPShouHuiView : UIView
-
+-(id)initFromNib;
 @end

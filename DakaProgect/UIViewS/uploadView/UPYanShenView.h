@@ -9,5 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface UPYanShenView : UIView
-
+-(id)initFromNib;
 @end

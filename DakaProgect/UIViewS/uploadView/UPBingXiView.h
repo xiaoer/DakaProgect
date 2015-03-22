@@ -9,5 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface UPBingXiView : UIView
-
+-(id)initFromNib;
 @end

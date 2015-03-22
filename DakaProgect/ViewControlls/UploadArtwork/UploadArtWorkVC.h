@@ -36,4 +36,21 @@
 
 @property (nonatomic) int tag;
 
+@property (nonatomic,strong) UPBaseView     *baseView;
+@property (nonatomic,strong) UPVideoView    *videoView;
+@property (nonatomic,strong) UPBanhuaView   *banhuaView;
+@property (nonatomic,strong) UPBingXiView   *bingXiView;
+@property (nonatomic,strong) UPChiQiView    *chiQiView;
+@property (nonatomic,strong) UPDiaoShuView  *diaoShuView;
+@property (nonatomic,strong) UPMeiShuView   *meiShuView;
+@property (nonatomic,strong) UPShuFaView    *shuFaView;
+@property (nonatomic,strong) UPShuiCaiView  *shuiCaiView;
+@property (nonatomic,strong) UPShuiMouView  *shuiMouView;
+@property (nonatomic,strong) UPShouHuiView  *shouHuiView;
+@property (nonatomic,strong) UPYanShenView  *yanShenView;
+@property (nonatomic,strong) UPYouHuaView   *youHuaView;
+@property (nonatomic,strong) UPYuQiView     *yuQiView;
+@property (nonatomic,strong) UPZhaXianView  *zhaXianView;
+@property (nonatomic,strong) UPZongHeView   *zongHeView;
+
 @end

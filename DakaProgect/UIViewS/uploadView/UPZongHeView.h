@@ -9,5 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface UPZongHeView : UIView
-
+-(id)initFromNib;
 @end

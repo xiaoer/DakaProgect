@@ -26,6 +26,60 @@
     choosePicButton.frame = CGRectMake(100, 100, 100, 100);
     [choosePicButton setTitle:@"上传图片" forState:UIControlStateNormal];
     [_totalScrollView addSubview:choosePicButton];
+    
+  //  _baseView = [[UPBaseView alloc] in]
+    switch (_tag) {
+        case 100:
+            
+            break;
+        case 101:
+            
+            break;
+        case 102:
+            
+            break;
+        case 103:
+            
+            break;
+        case 104:
+            
+            break;
+        case 105:
+            
+            break;
+        case 106:
+            
+            break;
+        case 107:
+            
+            break;
+        case 108:
+            
+            break;
+        case 109:
+            
+            break;
+        case 110:
+            
+            break;
+        case 111:
+            
+            break;
+        case 112:
+            
+            break;
+        case 113:
+            
+            break;
+        case 1114:
+            
+            break;
+            
+        default:
+            break;
+    }
+    
+    
 }
 
 -(void)choosePicButtonSelected:(UIButton *)sendButton

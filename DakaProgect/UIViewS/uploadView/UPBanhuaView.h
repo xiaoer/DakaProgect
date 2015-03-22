@@ -9,5 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface UPBanhuaView : UIView
-
+-(id)initFromNib;
 @end

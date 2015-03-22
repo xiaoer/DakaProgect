@@ -9,5 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface UPMeiShuView : UIView
-
+-(id)initFromNib;
 @end

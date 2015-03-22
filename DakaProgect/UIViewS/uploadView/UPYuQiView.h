@@ -9,5 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface UPYuQiView : UIView
-
+-(id)initFromNib;
 @end

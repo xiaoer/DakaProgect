@@ -9,5 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface UPZhaXianView : UIView
-
+-(id)initFromNib;
 @end

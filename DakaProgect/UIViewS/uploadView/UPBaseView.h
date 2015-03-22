@@ -9,5 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface UPBaseView : UIView
-
+-(id)initFromNib;
 @end
