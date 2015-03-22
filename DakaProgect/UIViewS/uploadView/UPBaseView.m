@@ -10,4 +10,18 @@
 
 @implementation UPBaseView
 
+-(id)initFromNib
+{
+    self = [[[NSBundle mainBundle] loadNibNamed:@"UPBaseView" owner:self options:nil] lastObject];
+    if(self)
+    {
+        CGRect rect = self.frame;
+        rect.size.width = iPhoneWidth;
+        self.frame = rect;
+    }
+    return self;
+    
+}
+
+
 @end

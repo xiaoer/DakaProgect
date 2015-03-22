@@ -200,6 +200,7 @@
 		BF1CF18E1ABE92C500918488 /* UPBaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPBaseView.h; sourceTree = "<group>"; };
 		BF1CF18F1ABE92C500918488 /* UPBaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UPBaseView.m; sourceTree = "<group>"; };
 		BF1CF1911ABE94E300918488 /* UPBaseView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UPBaseView.xib; sourceTree = "<group>"; };
+		BF1CF1931ABE9AAF00918488 /* DakaProgect-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DakaProgect-Prefix.pch"; sourceTree = "<group>"; };
 		BFD1DC6D1AB3F8AE005E26F2 /* CustomNaviBarSearchController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomNaviBarSearchController.h; sourceTree = "<group>"; };
 		BFD1DC6E1AB3F8AE005E26F2 /* CustomNaviBarSearchController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomNaviBarSearchController.m; sourceTree = "<group>"; };
 		BFD1DC6F1AB3F8AE005E26F2 /* CustomNaviBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomNaviBarView.h; sourceTree = "<group>"; };
@@ -956,6 +957,7 @@
 			children = (
 				D1F401B71A8B3DDF003D227D /* Info.plist */,
 				D1F401B81A8B3DDF003D227D /* main.m */,
+				BF1CF1931ABE9AAF00918488 /* DakaProgect-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -1321,6 +1323,8 @@
 					"$(PROJECT_DIR)/DakaProgect/External/ShareSDK",
 					"$(PROJECT_DIR)/DakaProgect/External/ShareSDK/UI",
 				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DakaProgect/DakaProgect-Prefix.pch";
 				INFOPLIST_FILE = DakaProgect/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
@@ -1348,6 +1352,8 @@
 					"$(PROJECT_DIR)/DakaProgect/External/ShareSDK",
 					"$(PROJECT_DIR)/DakaProgect/External/ShareSDK/UI",
 				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DakaProgect/DakaProgect-Prefix.pch";
 				INFOPLIST_FILE = DakaProgect/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (

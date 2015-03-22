@@ -1,0 +1,14 @@
+//
+//  DakaProgect-Prefix.pch
+//  DakaProgect
+//
+//  Created by super on 15/3/22.
+//  Copyright (c) 2015年 lipeifeng. All rights reserved.
+//
+
+#ifndef DakaProgect_DakaProgect_Prefix_pch
+#define DakaProgect_DakaProgect_Prefix_pch
+
+#import "DKGlobalDefine.h"
+
+#endif

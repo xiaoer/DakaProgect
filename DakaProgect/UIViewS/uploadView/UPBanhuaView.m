@@ -10,12 +10,17 @@
 
 @implementation UPBanhuaView
 
-/*
-// Only override drawRect: if you perform custom drawing.
-// An empty implementation adversely affects performance during animation.
-- (void)drawRect:(CGRect)rect {
-    // Drawing code
+-(id)initFromNib
+{
+    self = [[[NSBundle mainBundle] loadNibNamed:@"UPBanhuaView" owner:self options:nil] lastObject];
+    if(self)
+    {
+        CGRect rect = self.frame;
+        rect.size.width = iPhoneWidth;
+        self.frame = rect;
+    }
+    return self;
+    
 }
-*/
 
 @end
