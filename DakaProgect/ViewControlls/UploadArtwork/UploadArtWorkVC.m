@@ -27,52 +27,102 @@
     [choosePicButton setTitle:@"上传图片" forState:UIControlStateNormal];
     [_totalScrollView addSubview:choosePicButton];
     
-  //  _baseView = [[UPBaseView alloc] in]
+    _baseView = [[UPBaseView alloc] initFromNib];
+    [_totalScrollView addSubview:_baseView];
+    
+//      NSMutableArray *nameArray = [[NSMutableArray alloc] initWithObjects:@"版画",@"丙烯",@"瓷器",@"雕塑装置",@"民间美术",@"书法手稿",@"水彩",@"水墨",@"素描手绘",@"艺术衍生品",@"油画",@"玉器",@"杂项",@"综合材料",@"视频",nil];
+    
+    
     switch (_tag) {
         case 100:
-            
+        {
+            _banhuaView = [[UPBanhuaView alloc] initFromNib];
+            [_totalScrollView addSubview:_banhuaView];
+        }
             break;
         case 101:
-            
+        {
+            _bingXiView = [[UPBingXiView alloc] initFromNib];
+            [_totalScrollView addSubview:_bingXiView];
+        }
             break;
         case 102:
-            
+        {
+            _chiQiView = [[UPChiQiView alloc] initFromNib];
+            [_totalScrollView addSubview:_chiQiView];
+        }
             break;
         case 103:
-            
+        {
+            _diaoShuView = [[UPDiaoShuView alloc] initFromNib];
+            [_totalScrollView addSubview:_diaoShuView];
+        }
             break;
         case 104:
-            
+        {
+            _meiShuView = [[UPMeiShuView alloc] initFromNib];
+            [_totalScrollView addSubview:_meiShuView];
+        }
             break;
         case 105:
-            
+        {
+            _shuFaView = [[UPShuFaView alloc] initFromNib];
+            [_totalScrollView addSubview:_shuFaView];
+        }
             break;
         case 106:
-            
+        {
+            _shuiCaiView = [[UPShuiCaiView alloc] initFromNib];
+            [_totalScrollView addSubview:_shuiCaiView];
+        }
             break;
         case 107:
-            
+        {
+            _shuiMouView = [[UPShuiMouView alloc] initFromNib];
+            [_totalScrollView addSubview:_shuiCaiView];
+        }
             break;
         case 108:
-            
+        {
+            _shouHuiView = [[UPShouHuiView alloc] initFromNib];
+            [_totalScrollView addSubview:_shouHuiView];
+        }
             break;
         case 109:
-            
+        {
+            _yanShenView = [[UPYanShenView alloc] initFromNib];
+            [_totalScrollView addSubview:_yanShenView];
+        }
             break;
         case 110:
-            
+        {
+            _youHuaView = [[UPYouHuaView alloc] initFromNib];
+            [_totalScrollView addSubview:_youHuaView];
+        }
             break;
         case 111:
-            
+        {
+            _yuQiView = [[UPYuQiView alloc] initFromNib];
+            [_totalScrollView addSubview:_yuQiView];
+        }
             break;
         case 112:
-            
+        {
+            _zhaXianView = [[UPZhaXianView alloc] initFromNib];
+            [_totalScrollView addSubview:_zhaXianView];
+        }
             break;
         case 113:
-            
+        {
+            _zongHeView = [[UPZongHeView alloc] initFromNib];
+            [_totalScrollView addSubview:_zongHeView];
+        }
             break;
-        case 1114:
-            
+        case 114:
+        {
+            _videoView = [[UPVideoView alloc] initFromNib];
+            [_totalScrollView addSubview:_videoView];
+        }
             break;
             
         default:
