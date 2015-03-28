@@ -123,7 +123,9 @@
         case 114:
         {
             _videoView = [[UPVideoView alloc] initFromNib];
+            _videoView.frame = CGRectMake(0, 254, _totalScrollView.frame.size.width, 635);
             [_totalScrollView addSubview:_videoView];
+            _totalScrollView.contentSize = CGSizeMake(0, CGRectGetMaxY(_videoView.frame));
         }
             break;
             

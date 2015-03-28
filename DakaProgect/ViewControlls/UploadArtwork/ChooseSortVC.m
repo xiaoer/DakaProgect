@@ -55,6 +55,7 @@
 -(void)sortButtonSelected:(UIButton *)sendButton
 {
     UploadArtWorkVC *artWorkVC = [[UIStoryboard storyboardWithName:@"Main" bundle:nil] instantiateViewControllerWithIdentifier:@"UploadArtWorkVC"];
+    artWorkVC.tag = sendButton.tag;
     [(LRNavigationController*)[SliderViewController sharedSliderController].navigationController  pushViewControllerWithLRAnimated:artWorkVC];
 }
 
