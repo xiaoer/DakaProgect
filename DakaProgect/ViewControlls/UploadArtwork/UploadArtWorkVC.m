@@ -39,7 +39,9 @@
         case 100:
         {
             _banhuaView = [[UPBanhuaView alloc] initFromNib];
+            _banhuaView.frame = CGRectMake(0, 254, _totalScrollView.frame.size.width, 600);
             [_totalScrollView addSubview:_banhuaView];
+            _totalScrollView.contentSize = CGSizeMake(0, CGRectGetMaxY(_banhuaView.frame));
         }
             break;
         case 101:

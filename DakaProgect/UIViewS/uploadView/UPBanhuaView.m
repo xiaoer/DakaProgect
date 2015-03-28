@@ -15,9 +15,7 @@
     self = [[[NSBundle mainBundle] loadNibNamed:@"UPBanhuaView" owner:self options:nil] lastObject];
     if(self)
     {
-        CGRect rect = self.frame;
-        rect.size.width = iPhoneWidth;
-        self.frame = rect;
+        
     }
     return self;
     
