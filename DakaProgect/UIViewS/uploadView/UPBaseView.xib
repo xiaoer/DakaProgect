@@ -7,8 +7,8 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <view contentMode="scaleToFill" id="iN0-l3-epB">
-            <rect key="frame" x="0.0" y="0.0" width="320" height="226"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="UPBaseView">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="254"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="up_base_info.png" translatesAutoresizingMaskIntoConstraints="NO" id="Exe-xc-bGN">
@@ -28,15 +28,101 @@
                     <color key="textColor" red="0.62745098039215685" green="0.62745098039215685" blue="0.62745098039215685" alpha="1" colorSpace="calibratedRGB"/>
                     <nil key="highlightedColor"/>
                 </label>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ay4-0F-8u1">
+                    <rect key="frame" x="12" y="70" width="296" height="50"/>
+                    <subviews>
+                        <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="艺术品名称" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="AVw-cd-mxU">
+                            <rect key="frame" x="8" y="10" width="280" height="30"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <textInputTraits key="textInputTraits"/>
+                        </textField>
+                    </subviews>
+                    <color key="backgroundColor" red="0.87450980392156863" green="0.87450980392156863" blue="0.87450980392156863" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="3nU-wC-GTn"/>
+                        <constraint firstAttribute="bottom" secondItem="AVw-cd-mxU" secondAttribute="bottom" constant="10" id="KS0-WW-yf2"/>
+                        <constraint firstAttribute="trailing" secondItem="AVw-cd-mxU" secondAttribute="trailing" constant="8" id="arQ-b2-irl"/>
+                        <constraint firstItem="AVw-cd-mxU" firstAttribute="top" secondItem="ay4-0F-8u1" secondAttribute="top" constant="10" id="dau-jW-hwI"/>
+                        <constraint firstItem="AVw-cd-mxU" firstAttribute="leading" secondItem="ay4-0F-8u1" secondAttribute="leading" constant="8" id="h8i-a9-Wav"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="csl-pf-xwk">
+                    <rect key="frame" x="12" y="136" width="296" height="50"/>
+                    <subviews>
+                        <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="艺术家姓名" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="ebJ-Pj-lcN">
+                            <rect key="frame" x="8" y="10" width="280" height="30"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <textInputTraits key="textInputTraits"/>
+                        </textField>
+                    </subviews>
+                    <color key="backgroundColor" red="0.87450980389999999" green="0.87450980389999999" blue="0.87450980389999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstItem="ebJ-Pj-lcN" firstAttribute="top" secondItem="csl-pf-xwk" secondAttribute="top" constant="10" id="0qh-sM-7Eh"/>
+                        <constraint firstAttribute="trailing" secondItem="ebJ-Pj-lcN" secondAttribute="trailing" constant="8" id="S0b-Fc-hak"/>
+                        <constraint firstAttribute="bottom" secondItem="ebJ-Pj-lcN" secondAttribute="bottom" constant="10" id="cMl-zT-TuP"/>
+                        <constraint firstItem="ebJ-Pj-lcN" firstAttribute="leading" secondItem="csl-pf-xwk" secondAttribute="leading" constant="8" id="d0d-5P-vMV"/>
+                        <constraint firstAttribute="height" constant="50" id="dbv-7T-zND"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cXU-j7-A9F">
+                    <rect key="frame" x="12" y="202" width="296" height="50"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="分类" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OMl-J5-Cju">
+                            <rect key="frame" x="8" y="10" width="67" height="30"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="67" id="xsG-d8-rhm"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <color key="textColor" red="0.64313725490196072" green="0.64313725490196072" blue="0.64313725490196072" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="油画" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HrB-Ai-3Je">
+                            <rect key="frame" x="188" y="10" width="100" height="30"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="100" id="e1z-Ih-Tp2"/>
+                                <constraint firstAttribute="height" constant="30" id="khf-dV-xJM"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" red="0.87450980389999999" green="0.87450980389999999" blue="0.87450980389999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="CWT-eM-qkg"/>
+                        <constraint firstAttribute="trailing" secondItem="HrB-Ai-3Je" secondAttribute="trailing" constant="8" id="D97-jy-bcV"/>
+                        <constraint firstItem="OMl-J5-Cju" firstAttribute="leading" secondItem="cXU-j7-A9F" secondAttribute="leading" constant="8" id="QGA-SO-81b"/>
+                        <constraint firstItem="OMl-J5-Cju" firstAttribute="top" secondItem="cXU-j7-A9F" secondAttribute="top" constant="10" id="RKH-OF-ZFf"/>
+                        <constraint firstItem="HrB-Ai-3Je" firstAttribute="top" secondItem="cXU-j7-A9F" secondAttribute="top" constant="10" id="jBr-Yv-ain"/>
+                        <constraint firstAttribute="bottom" secondItem="OMl-J5-Cju" secondAttribute="bottom" constant="10" id="pgL-lu-hzP"/>
+                    </constraints>
+                </view>
             </subviews>
-            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
             <constraints>
+                <constraint firstItem="cXU-j7-A9F" firstAttribute="top" secondItem="csl-pf-xwk" secondAttribute="bottom" constant="16" id="2sb-cc-3yC"/>
+                <constraint firstItem="csl-pf-xwk" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="12" id="3Qt-nw-XUS"/>
+                <constraint firstItem="cXU-j7-A9F" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="12" id="3e7-Eq-wrC"/>
+                <constraint firstItem="csl-pf-xwk" firstAttribute="top" secondItem="ay4-0F-8u1" secondAttribute="bottom" constant="16" id="5zk-vO-qms"/>
                 <constraint firstItem="IHm-RH-zpO" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="34" id="Ecl-Kd-UeM"/>
                 <constraint firstItem="Exe-xc-bGN" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="12" id="Gl6-P0-vzk"/>
+                <constraint firstAttribute="trailing" secondItem="ay4-0F-8u1" secondAttribute="trailing" constant="12" id="Om0-f5-BZi"/>
+                <constraint firstItem="ay4-0F-8u1" firstAttribute="top" secondItem="IHm-RH-zpO" secondAttribute="bottom" constant="15" id="aiF-KR-Zgs"/>
                 <constraint firstItem="IHm-RH-zpO" firstAttribute="leading" secondItem="Exe-xc-bGN" secondAttribute="trailing" constant="18" id="e8l-29-MtG"/>
                 <constraint firstItem="Exe-xc-bGN" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="17" id="eBu-UT-y6X"/>
+                <constraint firstItem="ay4-0F-8u1" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="12" id="mH0-Eb-DqO"/>
+                <constraint firstAttribute="trailing" secondItem="csl-pf-xwk" secondAttribute="trailing" constant="12" id="o1g-0V-1lS"/>
+                <constraint firstAttribute="trailing" secondItem="cXU-j7-A9F" secondAttribute="trailing" constant="12" id="uoP-uv-cBh"/>
             </constraints>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="artistTextField" destination="ebJ-Pj-lcN" id="86V-fT-a1a"/>
+                <outlet property="artistView" destination="csl-pf-xwk" id="1Xz-el-hgk"/>
+                <outlet property="nameTextField" destination="AVw-cd-mxU" id="CHo-VO-WH5"/>
+                <outlet property="nameView" destination="ay4-0F-8u1" id="etm-Qm-VdR"/>
+                <outlet property="sortView" destination="cXU-j7-A9F" id="kzp-wS-CqM"/>
+                <outlet property="typeLabel" destination="HrB-Ai-3Je" id="b32-ah-sKL"/>
+            </connections>
             <point key="canvasLocation" x="318" y="195"/>
         </view>
     </objects>

@@ -10,7 +10,7 @@
 
 @interface BaseTextView : UIView
 
-@property (nonatomic,strong) UITextView *textView;
+@property (nonatomic,strong) UITextField *textView;
 
 
 -(id)initView;

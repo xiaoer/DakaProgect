@@ -21,13 +21,15 @@
     [self setNaviBarTitle:@"上传艺术品"];
     [self.view setBackgroundColor:UIColorFromRGB(0xe5e5e5)];
     [UtilityFunc resetScrlView:_totalScrollView contentInsetWithNaviBar:YES tabBar:NO iOS7ContentInsetStatusBarHeight:0 inidcatorInsetStatusBarHeight:-1];
-    UIButton *choosePicButton = [[UIButton alloc] init];
-    [choosePicButton addTarget:self action:@selector(choosePicButtonSelected:) forControlEvents:UIControlEventTouchUpInside];
-    choosePicButton.frame = CGRectMake(100, 100, 100, 100);
-    [choosePicButton setTitle:@"上传图片" forState:UIControlStateNormal];
-    [_totalScrollView addSubview:choosePicButton];
+    _totalScrollView.backgroundColor= [UIColor whiteColor];
+//    UIButton *choosePicButton = [[UIButton alloc] init];
+//    [choosePicButton addTarget:self action:@selector(choosePicButtonSelected:) forControlEvents:UIControlEventTouchUpInside];
+//    choosePicButton.frame = CGRectMake(100, 100, 100, 100);
+//    [choosePicButton setTitle:@"上传图片" forState:UIControlStateNormal];
+//    [_totalScrollView addSubview:choosePicButton];
     
     _baseView = [[UPBaseView alloc] initFromNib];
+    _baseView.frame = CGRectMake(0, 0, _totalScrollView.frame.size.width, 254);
     [_totalScrollView addSubview:_baseView];
     
 //      NSMutableArray *nameArray = [[NSMutableArray alloc] initWithObjects:@"版画",@"丙烯",@"瓷器",@"雕塑装置",@"民间美术",@"书法手稿",@"水彩",@"水墨",@"素描手绘",@"艺术衍生品",@"油画",@"玉器",@"杂项",@"综合材料",@"视频",nil];
