@@ -164,6 +164,17 @@
             </constraints>
             <nil key="simulatedStatusBarMetrics"/>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="nian1TextField" destination="oEb-QL-PkP" id="ZDu-22-eeV"/>
+                <outlet property="nian2TextField" destination="xct-vi-sOR" id="JPO-YR-CJR"/>
+                <outlet property="nian3TextField" destination="yRA-fg-SN1" id="t75-83-T36"/>
+                <outlet property="nian4TextField" destination="Rg1-Z8-Bou" id="XzX-0a-dD7"/>
+                <outlet property="nian4View" destination="ITC-9r-tSO" id="Yzz-Zt-mdO"/>
+                <outlet property="riTextField" destination="Eph-gs-ugL" id="qyo-bu-6Qf"/>
+                <outlet property="riView" destination="21C-Zb-tUM" id="OrY-ZS-oXt"/>
+                <outlet property="yueTextField" destination="ns6-zs-djL" id="rXR-9P-EDs"/>
+                <outlet property="yueView" destination="XZy-CV-60t" id="K0s-7z-qLb"/>
+            </connections>
             <point key="canvasLocation" x="324" y="323"/>
         </view>
     </objects>
