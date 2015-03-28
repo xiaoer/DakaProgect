@@ -20,8 +20,8 @@
         self.frame = rect;
     }
     return self;
-    
 }
+
 
 
 @end
