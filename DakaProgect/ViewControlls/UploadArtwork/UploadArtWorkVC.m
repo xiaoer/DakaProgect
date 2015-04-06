@@ -71,7 +71,9 @@
         case 104:
         {
             _meiShuView = [[UPMeiShuView alloc] initFromNib];
+            _meiShuView.frame = CGRectMake(0, 254, _totalScrollView.frame.size.width, 568);
             [_totalScrollView addSubview:_meiShuView];
+            _totalScrollView.contentSize = CGSizeMake(0, CGRectGetMaxY(_meiShuView.frame));
         }
             break;
         case 105:
