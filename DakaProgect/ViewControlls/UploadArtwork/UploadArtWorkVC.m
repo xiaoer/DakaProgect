@@ -63,7 +63,9 @@
         case 103:
         {
             _diaoShuView = [[UPDiaoShuView alloc] initFromNib];
+               _diaoShuView.frame = CGRectMake(0, 254, _totalScrollView.frame.size.width, 568);
             [_totalScrollView addSubview:_diaoShuView];
+             _totalScrollView.contentSize = CGSizeMake(0, CGRectGetMaxY(_diaoShuView.frame));
         }
             break;
         case 104:
