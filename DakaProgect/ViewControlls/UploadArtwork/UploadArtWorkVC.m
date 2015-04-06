@@ -95,7 +95,9 @@
         case 107:
         {
             _shuiMouView = [[UPShuiMouView alloc] initFromNib];
-            [_totalScrollView addSubview:_shuiCaiView];
+            _shuiMouView.frame = CGRectMake(0, 254, _totalScrollView.frame.size.width, 684);
+            [_totalScrollView addSubview:_shuiMouView];
+             _totalScrollView.contentSize = CGSizeMake(0, CGRectGetMaxY(_shuiMouView.frame));
         }
             break;
         case 108:
