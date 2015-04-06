@@ -127,7 +127,9 @@
         case 111:
         {
             _yuQiView = [[UPYuQiView alloc] initFromNib];
+                _yuQiView.frame = CGRectMake(0, 254, _totalScrollView.frame.size.width, 500);
             [_totalScrollView addSubview:_yuQiView];
+             _totalScrollView.contentSize = CGSizeMake(0, CGRectGetMaxY(_yuQiView.frame));
         }
             break;
         case 112:
