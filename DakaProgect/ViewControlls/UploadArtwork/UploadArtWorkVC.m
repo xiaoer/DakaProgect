@@ -111,7 +111,9 @@
         case 109:
         {
             _yanShenView = [[UPYanShenView alloc] initFromNib];
+            _yanShenView.frame = CGRectMake(0, 254, _totalScrollView.frame.size.width, 568);
             [_totalScrollView addSubview:_yanShenView];
+            _totalScrollView.contentSize = CGSizeMake(0, CGRectGetMaxY(_yanShenView.frame));
         }
             break;
         case 110:
