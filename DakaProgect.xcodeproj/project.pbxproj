@@ -136,6 +136,9 @@
 		BFD1DD981AB587A6005E26F2 /* elc_pic_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = BFD1DD951AB587A6005E26F2 /* elc_pic_selected.png */; };
 		BFD1DD991AB587A6005E26F2 /* elc_pic_selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BFD1DD961AB587A6005E26F2 /* elc_pic_selected@2x.png */; };
 		BFD1DD9A1AB587A6005E26F2 /* elc_pic_selected@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BFD1DD971AB587A6005E26F2 /* elc_pic_selected@3x.png */; };
+		BFFFBC091AD234D7001EE820 /* NaviBtn_Back.png in Resources */ = {isa = PBXBuildFile; fileRef = BFFFBC061AD234D7001EE820 /* NaviBtn_Back.png */; };
+		BFFFBC0A1AD234D7001EE820 /* NaviBtn_Back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BFFFBC071AD234D7001EE820 /* NaviBtn_Back@2x.png */; };
+		BFFFBC0B1AD234D7001EE820 /* NaviBtn_Back@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BFFFBC081AD234D7001EE820 /* NaviBtn_Back@3x.png */; };
 		D1F401B91A8B3DDF003D227D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D1F401B81A8B3DDF003D227D /* main.m */; };
 		D1F401BC1A8B3DDF003D227D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D1F401BB1A8B3DDF003D227D /* AppDelegate.m */; };
 		D1F401BF1A8B3DDF003D227D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1F401BE1A8B3DDF003D227D /* ViewController.m */; };
@@ -385,6 +388,9 @@
 		BFD1DD951AB587A6005E26F2 /* elc_pic_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = elc_pic_selected.png; sourceTree = "<group>"; };
 		BFD1DD961AB587A6005E26F2 /* elc_pic_selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "elc_pic_selected@2x.png"; sourceTree = "<group>"; };
 		BFD1DD971AB587A6005E26F2 /* elc_pic_selected@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "elc_pic_selected@3x.png"; sourceTree = "<group>"; };
+		BFFFBC061AD234D7001EE820 /* NaviBtn_Back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NaviBtn_Back.png; sourceTree = "<group>"; };
+		BFFFBC071AD234D7001EE820 /* NaviBtn_Back@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NaviBtn_Back@2x.png"; sourceTree = "<group>"; };
+		BFFFBC081AD234D7001EE820 /* NaviBtn_Back@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NaviBtn_Back@3x.png"; sourceTree = "<group>"; };
 		D1F401B31A8B3DDF003D227D /* DakaProgect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DakaProgect.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1F401B71A8B3DDF003D227D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D1F401B81A8B3DDF003D227D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -891,6 +897,7 @@
 		BFD1DD891AB574A8005E26F2 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				BFFFBC051AD234D7001EE820 /* other */,
 				BFD1DD8A1AB574A8005E26F2 /* uploadArtImage */,
 			);
 			path = Resources;
@@ -910,6 +917,16 @@
 				BFD1DD8D1AB575A4005E26F2 /* elc_final@3x.png */,
 			);
 			path = uploadArtImage;
+			sourceTree = "<group>";
+		};
+		BFFFBC051AD234D7001EE820 /* other */ = {
+			isa = PBXGroup;
+			children = (
+				BFFFBC061AD234D7001EE820 /* NaviBtn_Back.png */,
+				BFFFBC071AD234D7001EE820 /* NaviBtn_Back@2x.png */,
+				BFFFBC081AD234D7001EE820 /* NaviBtn_Back@3x.png */,
+			);
+			path = other;
 			sourceTree = "<group>";
 		};
 		D1F401AA1A8B3DDF003D227D = {
@@ -1078,6 +1095,7 @@
 				BFD1DCB01AB3FC1C005E26F2 /* TencentOpenApi_IOS_Bundle.bundle in Resources */,
 				BF1CF1791ABE916F00918488 /* UPYanShenView.xib in Resources */,
 				D1F401C21A8B3DDF003D227D /* Main.storyboard in Resources */,
+				BFFFBC0B1AD234D7001EE820 /* NaviBtn_Back@3x.png in Resources */,
 				BF1CF18D1ABE925D00918488 /* UPZongHeView.xib in Resources */,
 				BFD1DD901AB575A4005E26F2 /* elc_final@3x.png in Resources */,
 				D1F401C71A8B3DDF003D227D /* LaunchScreen.xib in Resources */,
@@ -1101,6 +1119,7 @@
 				BFD1DD4A1AB54334005E26F2 /* ELCAssetGroupCell.xib in Resources */,
 				BF1CF16A1ABE907C00918488 /* UPShuiCaiView.xib in Resources */,
 				BF1CF1881ABE922B00918488 /* UPZhaXianView.xib in Resources */,
+				BFFFBC0A1AD234D7001EE820 /* NaviBtn_Back@2x.png in Resources */,
 				BF1CF1471ABE8E4700918488 /* UPVideoView.xib in Resources */,
 				BF1CF17E1ABE91A400918488 /* UPYouHuaView.xib in Resources */,
 				BF1CF15B1ABE8F6800918488 /* UPDiaoShuView.xib in Resources */,
@@ -1110,6 +1129,7 @@
 				BFD1DD981AB587A6005E26F2 /* elc_pic_selected.png in Resources */,
 				BFD1DD9A1AB587A6005E26F2 /* elc_pic_selected@3x.png in Resources */,
 				BFD1DCAD1AB3FC1C005E26F2 /* Resource.bundle in Resources */,
+				BFFFBC091AD234D7001EE820 /* NaviBtn_Back.png in Resources */,
 				BF1CF1981ABEABB300918488 /* up_base_info@2x.png in Resources */,
 				BF1CF16F1ABE90C500918488 /* UPShuiMouView.xib in Resources */,
 			);
