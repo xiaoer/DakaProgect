@@ -16,7 +16,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    [self setNaviBarTitle:@"忘记密码"];
+    [self.view setBackgroundColor:UIColorFromRGB(0xe5e5e5)];
 }
 
 - (void)didReceiveMemoryWarning {

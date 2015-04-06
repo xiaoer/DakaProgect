@@ -7,6 +7,8 @@
 //
 
 #import "LoginVC.h"
+#import "RegisterFirstVC.h"
+#import "ForgetPWVC.h"
 
 @interface LoginVC ()
 
@@ -16,7 +18,24 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    [self setNaviBarTitle:@"登录"];
+    [self setNaviBarLeftBtn:nil];
+    [self.view setBackgroundColor:UIColorFromRGB(0xe5e5e5)];
+   // [self regisetButtonSelected:nil];
+    [self forgetPassWordButtonSelected:nil];
     // Do any additional setup after loading the view.
+}
+
+-(void)regisetButtonSelected:(UIButton *)sendButton
+{
+    RegisterFirstVC *regsterFirstVC = [[UIStoryboard storyboardWithName:@"Main" bundle:nil] instantiateViewControllerWithIdentifier:@"RegisterFirstVC"];
+    [self.navigationController pushViewController:regsterFirstVC animated:YES];
+}
+
+-(void)forgetPassWordButtonSelected:(UIButton *)sendButton
+{
+    ForgetPWVC *forgetPwVC =[[UIStoryboard storyboardWithName:@"Main" bundle:nil] instantiateViewControllerWithIdentifier:@"ForgetPWVC"];
+    [self.navigationController pushViewController:forgetPwVC animated:YES];
 }
 
 - (void)didReceiveMemoryWarning {

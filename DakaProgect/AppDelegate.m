@@ -26,6 +26,9 @@
     _nav.judgeOffset = 100;
     _nav.startX=0;
     
+//    CustomNavigationController *logNav = [[CustomNavigationController alloc] initWithRootViewController:[[UIStoryboard storyboardWithName:@"Main" bundle:nil] instantiateViewControllerWithIdentifier:@"LoginVC"]];
+//    self.window.rootViewController = logNav;
+    
     self.window.rootViewController = _nav;
 
     return YES;
