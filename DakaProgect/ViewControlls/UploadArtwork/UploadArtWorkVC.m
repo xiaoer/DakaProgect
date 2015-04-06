@@ -47,7 +47,9 @@
         case 101:
         {
             _bingXiView = [[UPBingXiView alloc] initFromNib];
+              _bingXiView.frame = CGRectMake(0, 254, _totalScrollView.frame.size.width, 568);
             [_totalScrollView addSubview:_bingXiView];
+              _totalScrollView.contentSize = CGSizeMake(0, CGRectGetMaxY(_bingXiView.frame));
         }
             break;
         case 102:
