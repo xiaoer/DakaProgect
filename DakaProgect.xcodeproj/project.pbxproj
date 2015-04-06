@@ -237,6 +237,7 @@
 		BFFFBCD31AD29AF9001EE820 /* yinxiang_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = BFFFBCCD1AD29AF9001EE820 /* yinxiang_selected.png */; };
 		BFFFBCD41AD29AF9001EE820 /* yinxiang_selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BFFFBCCE1AD29AF9001EE820 /* yinxiang_selected@2x.png */; };
 		BFFFBCD51AD29AF9001EE820 /* yinxiang_selected@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BFFFBCCF1AD29AF9001EE820 /* yinxiang_selected@3x.png */; };
+		BFFFBCD91AD2A6B4001EE820 /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = BFFFBCD81AD2A6B4001EE820 /* UIImage+ImageEffects.m */; };
 		D1F401B91A8B3DDF003D227D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D1F401B81A8B3DDF003D227D /* main.m */; };
 		D1F401BC1A8B3DDF003D227D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D1F401BB1A8B3DDF003D227D /* AppDelegate.m */; };
 		D1F401BF1A8B3DDF003D227D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1F401BE1A8B3DDF003D227D /* ViewController.m */; };
@@ -592,6 +593,8 @@
 		BFFFBCCD1AD29AF9001EE820 /* yinxiang_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yinxiang_selected.png; sourceTree = "<group>"; };
 		BFFFBCCE1AD29AF9001EE820 /* yinxiang_selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "yinxiang_selected@2x.png"; sourceTree = "<group>"; };
 		BFFFBCCF1AD29AF9001EE820 /* yinxiang_selected@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "yinxiang_selected@3x.png"; sourceTree = "<group>"; };
+		BFFFBCD71AD2A6B4001EE820 /* UIImage+ImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageEffects.h"; sourceTree = "<group>"; };
+		BFFFBCD81AD2A6B4001EE820 /* UIImage+ImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageEffects.m"; sourceTree = "<group>"; };
 		D1F401B31A8B3DDF003D227D /* DakaProgect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DakaProgect.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1F401B71A8B3DDF003D227D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D1F401B81A8B3DDF003D227D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -660,6 +663,7 @@
 		BFD1DC6B1AB3F869005E26F2 /* External */ = {
 			isa = PBXGroup;
 			children = (
+				BFFFBCD61AD2A6B4001EE820 /* ImageEffect */,
 				BFD1DD671AB546BA005E26F2 /* GMGirdView */,
 				BFD1DD5D1AB54641005E26F2 /* AVCam */,
 				BFD1DD561AB544E0005E26F2 /* Shutter */,
@@ -1241,6 +1245,15 @@
 			path = chooseSort;
 			sourceTree = "<group>";
 		};
+		BFFFBCD61AD2A6B4001EE820 /* ImageEffect */ = {
+			isa = PBXGroup;
+			children = (
+				BFFFBCD71AD2A6B4001EE820 /* UIImage+ImageEffects.h */,
+				BFFFBCD81AD2A6B4001EE820 /* UIImage+ImageEffects.m */,
+			);
+			path = ImageEffect;
+			sourceTree = "<group>";
+		};
 		D1F401AA1A8B3DDF003D227D = {
 			isa = PBXGroup;
 			children = (
@@ -1576,6 +1589,7 @@
 				BF1CF18B1ABE924A00918488 /* UPZongHeView.m in Sources */,
 				BFD1DD021AB40FE0005E26F2 /* SettingVC.m in Sources */,
 				BF1CF1861ABE921600918488 /* UPZhaXianView.m in Sources */,
+				BFFFBCD91AD2A6B4001EE820 /* UIImage+ImageEffects.m in Sources */,
 				BFD1DCF31AB40C3D005E26F2 /* ASIDownloadCache.m in Sources */,
 				BFD1DD841AB54B99005E26F2 /* ThumilView.m in Sources */,
 				BFD1DD661AB54641005E26F2 /* AVCamUtilities.m in Sources */,
