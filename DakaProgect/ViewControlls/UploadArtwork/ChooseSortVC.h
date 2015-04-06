@@ -12,4 +12,6 @@
 
 @property (nonatomic,weak) IBOutlet UIScrollView *totalScrollView;
 
+@property (nonatomic,strong) NSMutableArray *buttonArray;
+
 @end

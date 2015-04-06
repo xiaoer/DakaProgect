@@ -12,4 +12,6 @@
 @interface LxUI : NSObject
 + (UIImage *)imageTensileWithName:(NSString *)imageName;
 + (UIImage *)imageNewTensileWithName:(NSString *)imageName;
++ (UIImage*) createImageWithColor: (UIColor*) color;
+
 @end
