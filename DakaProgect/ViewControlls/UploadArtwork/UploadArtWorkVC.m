@@ -55,7 +55,9 @@
         case 102:
         {
             _chiQiView = [[UPChiQiView alloc] initFromNib];
+             _chiQiView.frame = CGRectMake(0, 254, _totalScrollView.frame.size.width, 500);
             [_totalScrollView addSubview:_chiQiView];
+            _totalScrollView.contentSize = CGSizeMake(0, CGRectGetMaxY(_chiQiView.frame));
         }
             break;
         case 103:
