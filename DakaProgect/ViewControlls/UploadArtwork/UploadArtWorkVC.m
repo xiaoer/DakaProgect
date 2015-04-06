@@ -119,7 +119,9 @@
         case 110:
         {
             _youHuaView = [[UPYouHuaView alloc] initFromNib];
+             _youHuaView.frame = CGRectMake(0, 254, _totalScrollView.frame.size.width, 568);
             [_totalScrollView addSubview:_youHuaView];
+             _totalScrollView.contentSize = CGSizeMake(0, CGRectGetMaxY(_youHuaView.frame));
         }
             break;
         case 111:
