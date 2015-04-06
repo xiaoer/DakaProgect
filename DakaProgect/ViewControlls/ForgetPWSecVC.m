@@ -16,6 +16,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    [self setNaviBarTitle:@"设置新密码"];
+    
     // Do any additional setup after loading the view.
 }
 

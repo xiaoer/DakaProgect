@@ -10,4 +10,14 @@
 
 @interface RegisterSecondVC : CustomViewController
 
+@property (nonatomic,weak) IBOutlet UIScrollView *tolScrollview;
+@property (nonatomic,weak) IBOutlet UILabel         *telLabel;
+@property (nonatomic,weak) IBOutlet UITextField     *passWordTextField;
+
+@property (nonatomic,weak) IBOutlet UIButton *regButton;
+
+@property (nonatomic) NSString *telStr;
+
+-(IBAction)regButtonSelected:(id)sender;
+
 @end

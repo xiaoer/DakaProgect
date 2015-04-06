@@ -14,7 +14,8 @@
 
 @implementation ForgetPWVC
 
-- (void)viewDidLoad {
+- (void)viewDidLoad
+{
     [super viewDidLoad];
     [self setNaviBarTitle:@"忘记密码"];
     [self.view setBackgroundColor:UIColorFromRGB(0xe5e5e5)];

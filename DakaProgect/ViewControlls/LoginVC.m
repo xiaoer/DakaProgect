@@ -26,13 +26,13 @@
     // Do any additional setup after loading the view.
 }
 
--(void)regisetButtonSelected:(UIButton *)sendButton
+-(IBAction)regisetButtonSelected:(UIButton *)sendButton
 {
     RegisterFirstVC *regsterFirstVC = [[UIStoryboard storyboardWithName:@"Main" bundle:nil] instantiateViewControllerWithIdentifier:@"RegisterFirstVC"];
     [self.navigationController pushViewController:regsterFirstVC animated:YES];
 }
 
--(void)forgetPassWordButtonSelected:(UIButton *)sendButton
+-(IBAction)forgetPassWordButtonSelected:(UIButton *)sendButton
 {
     ForgetPWVC *forgetPwVC =[[UIStoryboard storyboardWithName:@"Main" bundle:nil] instantiateViewControllerWithIdentifier:@"ForgetPWVC"];
     [self.navigationController pushViewController:forgetPwVC animated:YES];

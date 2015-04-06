@@ -10,4 +10,16 @@
 
 @interface ForgetPWSecVC : CustomViewController
 
+@property (nonatomic,weak) IBOutlet UIScrollView *tolScrollview;
+@property (nonatomic,weak) IBOutlet UILabel         *telLabel;
+@property (nonatomic,weak) IBOutlet UITextField     *passWordTextField;
+
+@property (nonatomic,weak) IBOutlet UIButton *setButton;
+
+@property (nonatomic) NSString *telStr;
+
+-(IBAction)setButtonSelected:(id)sender;
+
+
+
 @end

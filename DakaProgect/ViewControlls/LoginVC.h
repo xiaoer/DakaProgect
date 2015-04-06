@@ -10,5 +10,16 @@
 #import "CustomViewController.h"
 
 @interface LoginVC : CustomViewController
+@property (nonatomic,weak) IBOutlet UIImageView  *backImageView;
+@property (nonatomic,weak) IBOutlet UIScrollView *tolScrollView;
+@property (nonatomic,weak) IBOutlet UIView       *loginView;
+@property (nonatomic,weak) IBOutlet UITextField      *userNameTextField;
+@property (nonatomic,weak) IBOutlet UITextField      *passWordTextField;
+@property (nonatomic,weak) IBOutlet UIButton        *loginButton;
+@property (nonatomic,weak) IBOutlet UIImageView     *coverImageView;
+
+
+-(IBAction)regisetButtonSelected:(UIButton *)sendButton;
+-(IBAction)forgetPassWordButtonSelected:(UIButton *)sendButton;
 
 @end
