@@ -14,12 +14,11 @@
 
 @implementation RegisterFirstVC
 
-- (void)viewDidLoad {
+- (void)viewDidLoad
+{
     [super viewDidLoad];
     [self setNaviBarTitle:@"注册"];
     [self.view setBackgroundColor:UIColorFromRGB(0xe5e5e5)];
-    
-    // Do any additional setup after loading the view.
 }
 
 - (void)didReceiveMemoryWarning {
