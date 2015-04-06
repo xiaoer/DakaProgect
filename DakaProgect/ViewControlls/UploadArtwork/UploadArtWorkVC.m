@@ -143,7 +143,9 @@
         case 113:
         {
             _zongHeView = [[UPZongHeView alloc] initFromNib];
+            _zongHeView.frame = CGRectMake(0, 254, _totalScrollView.frame.size.width, 568);
             [_totalScrollView addSubview:_zongHeView];
+             _totalScrollView.contentSize = CGSizeMake(0, CGRectGetMaxY(_zongHeView.frame));
         }
             break;
         case 114:
