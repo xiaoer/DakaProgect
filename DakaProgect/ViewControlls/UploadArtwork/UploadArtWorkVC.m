@@ -127,7 +127,7 @@
         case 111:
         {
             _yuQiView = [[UPYuQiView alloc] initFromNib];
-                _yuQiView.frame = CGRectMake(0, 254, _totalScrollView.frame.size.width, 500);
+            _yuQiView.frame = CGRectMake(0, 254, _totalScrollView.frame.size.width, 500);
             [_totalScrollView addSubview:_yuQiView];
              _totalScrollView.contentSize = CGSizeMake(0, CGRectGetMaxY(_yuQiView.frame));
         }
@@ -135,7 +135,9 @@
         case 112:
         {
             _zhaXianView = [[UPZhaXianView alloc] initFromNib];
+            _zhaXianView.frame = CGRectMake(0, 254, _totalScrollView.frame.size.width, 500);
             [_totalScrollView addSubview:_zhaXianView];
+             _totalScrollView.contentSize = CGSizeMake(0, CGRectGetMaxY(_zhaXianView.frame));
         }
             break;
         case 113:
