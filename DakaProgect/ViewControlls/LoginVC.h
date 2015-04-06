@@ -21,5 +21,6 @@
 
 -(IBAction)regisetButtonSelected:(UIButton *)sendButton;
 -(IBAction)forgetPassWordButtonSelected:(UIButton *)sendButton;
+-(IBAction)loginButtonSelected:(UIButton *)sendButton;
 
 @end

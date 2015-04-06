@@ -38,6 +38,11 @@
     [self.navigationController pushViewController:forgetPwVC animated:YES];
 }
 
+-(IBAction)loginButtonSelected:(UIButton *)sendButton
+{
+
+}
+
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
