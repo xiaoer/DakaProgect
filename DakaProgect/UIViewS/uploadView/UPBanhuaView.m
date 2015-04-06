@@ -43,9 +43,30 @@
         _verNumSecVW.layer.masksToBounds = YES;
         _verNumSecVW.layer.cornerRadius = 3.0f;
         _verNumThirdVW.hidden = YES;
+        
+        _zhuanbiaoView.layer.masksToBounds = YES;
+        _zhuanbiaoView.layer.cornerRadius = 3.0f;
+        
+        _signView.layer.masksToBounds = YES;
+        _signView.layer.cornerRadius = 3.0f;
+        
+        _pingXianView.layer.masksToBounds = YES;
+        _pingXianView.layer.cornerRadius = 3.0f;
+        
+        _videoDescView.layer.masksToBounds = YES;
+        _videoDescView.layer.cornerRadius = 3.0f;
     }
     return self;
     
+}
+
+-(void)textViewDidChange:(UITextView *)textView
+{
+    if (textView.text.length == 0) {
+        _videoDescLabel.text = @"详细信息:";
+    }else{
+        _videoDescLabel.text = @"";
+    }
 }
 
 @end

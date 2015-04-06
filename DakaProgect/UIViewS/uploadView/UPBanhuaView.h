@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface UPBanhuaView : UIView
+@interface UPBanhuaView : UIView<UITextViewDelegate>
 
 @property (nonatomic,weak) IBOutlet UITextField *nian1TextField;
 @property (nonatomic,weak) IBOutlet UITextField *nian2TextField;
@@ -38,6 +38,17 @@
 @property (nonatomic,weak) IBOutlet UITextField *verNumSecTF;
 @property (nonatomic,weak) IBOutlet UIView *verNumThirdVW;
 
+@property (nonatomic,weak) IBOutlet UIView *zhuanbiaoView;
+@property (nonatomic,weak) IBOutlet UILabel *zhuanbiaoLabel;
+
+@property (nonatomic,weak) IBOutlet UIView *signView;
+@property (nonatomic,weak) IBOutlet UITextField *signTextField;
+@property (nonatomic,weak) IBOutlet UIView *pingXianView;
+@property (nonatomic,weak) IBOutlet UITextField *pingXianTextField;
+
+@property (nonatomic,weak) IBOutlet UIView *videoDescView;
+@property (nonatomic,weak) IBOutlet UITextView *videoDescTextView;
+@property (nonatomic,weak) IBOutlet UILabel *videoDescLabel;
 
 -(id)initFromNib;
 
