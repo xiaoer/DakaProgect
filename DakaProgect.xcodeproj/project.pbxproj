@@ -220,6 +220,11 @@
 		BFFFBCAC1AD28C37001EE820 /* mingjian_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = BFFFBCA61AD28C37001EE820 /* mingjian_selected.png */; };
 		BFFFBCAD1AD28C37001EE820 /* mingjian_selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BFFFBCA71AD28C37001EE820 /* mingjian_selected@2x.png */; };
 		BFFFBCAE1AD28C37001EE820 /* mingjian_selected@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BFFFBCA81AD28C37001EE820 /* mingjian_selected@3x.png */; };
+		BFFFBCB11AD2918B001EE820 /* LoginVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BFFFBCB01AD2918B001EE820 /* LoginVC.m */; };
+		BFFFBCB41AD291AB001EE820 /* RegisterFirstVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BFFFBCB31AD291AB001EE820 /* RegisterFirstVC.m */; };
+		BFFFBCB71AD291DB001EE820 /* RegisterSecondVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BFFFBCB61AD291DB001EE820 /* RegisterSecondVC.m */; };
+		BFFFBCBA1AD2926C001EE820 /* ForgetPWVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BFFFBCB91AD2926C001EE820 /* ForgetPWVC.m */; };
+		BFFFBCBD1AD2928C001EE820 /* ForgetPWSecVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BFFFBCBC1AD2928C001EE820 /* ForgetPWSecVC.m */; };
 		D1F401B91A8B3DDF003D227D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D1F401B81A8B3DDF003D227D /* main.m */; };
 		D1F401BC1A8B3DDF003D227D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D1F401BB1A8B3DDF003D227D /* AppDelegate.m */; };
 		D1F401BF1A8B3DDF003D227D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1F401BE1A8B3DDF003D227D /* ViewController.m */; };
@@ -553,6 +558,16 @@
 		BFFFBCA61AD28C37001EE820 /* mingjian_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mingjian_selected.png; sourceTree = "<group>"; };
 		BFFFBCA71AD28C37001EE820 /* mingjian_selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mingjian_selected@2x.png"; sourceTree = "<group>"; };
 		BFFFBCA81AD28C37001EE820 /* mingjian_selected@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mingjian_selected@3x.png"; sourceTree = "<group>"; };
+		BFFFBCAF1AD2918B001EE820 /* LoginVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginVC.h; sourceTree = "<group>"; };
+		BFFFBCB01AD2918B001EE820 /* LoginVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginVC.m; sourceTree = "<group>"; };
+		BFFFBCB21AD291AB001EE820 /* RegisterFirstVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterFirstVC.h; sourceTree = "<group>"; };
+		BFFFBCB31AD291AB001EE820 /* RegisterFirstVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterFirstVC.m; sourceTree = "<group>"; };
+		BFFFBCB51AD291DB001EE820 /* RegisterSecondVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterSecondVC.h; sourceTree = "<group>"; };
+		BFFFBCB61AD291DB001EE820 /* RegisterSecondVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterSecondVC.m; sourceTree = "<group>"; };
+		BFFFBCB81AD2926C001EE820 /* ForgetPWVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ForgetPWVC.h; sourceTree = "<group>"; };
+		BFFFBCB91AD2926C001EE820 /* ForgetPWVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ForgetPWVC.m; sourceTree = "<group>"; };
+		BFFFBCBB1AD2928C001EE820 /* ForgetPWSecVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ForgetPWSecVC.h; sourceTree = "<group>"; };
+		BFFFBCBC1AD2928C001EE820 /* ForgetPWSecVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ForgetPWSecVC.m; sourceTree = "<group>"; };
 		D1F401B31A8B3DDF003D227D /* DakaProgect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DakaProgect.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1F401B71A8B3DDF003D227D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D1F401B81A8B3DDF003D227D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -810,6 +825,16 @@
 			children = (
 				BFD1DD101AB41EEF005E26F2 /* UploadArtwork */,
 				BFD1DCFF1AB40FBB005E26F2 /* LeftVCS */,
+				BFFFBCAF1AD2918B001EE820 /* LoginVC.h */,
+				BFFFBCB01AD2918B001EE820 /* LoginVC.m */,
+				BFFFBCB21AD291AB001EE820 /* RegisterFirstVC.h */,
+				BFFFBCB31AD291AB001EE820 /* RegisterFirstVC.m */,
+				BFFFBCB51AD291DB001EE820 /* RegisterSecondVC.h */,
+				BFFFBCB61AD291DB001EE820 /* RegisterSecondVC.m */,
+				BFFFBCB81AD2926C001EE820 /* ForgetPWVC.h */,
+				BFFFBCB91AD2926C001EE820 /* ForgetPWVC.m */,
+				BFFFBCBB1AD2928C001EE820 /* ForgetPWSecVC.h */,
+				BFFFBCBC1AD2928C001EE820 /* ForgetPWSecVC.m */,
 			);
 			path = ViewControlls;
 			sourceTree = "<group>";
@@ -1485,6 +1510,7 @@
 				BFD1DC7C1AB3F8AE005E26F2 /* UtilityFunc.m in Sources */,
 				D1F401BF1A8B3DDF003D227D /* ViewController.m in Sources */,
 				BFD1DCF11AB40C3D005E26F2 /* ASIDataCompressor.m in Sources */,
+				BFFFBCB41AD291AB001EE820 /* RegisterFirstVC.m in Sources */,
 				BF1CF19C1ABEB14C00918488 /* BaseTextView.m in Sources */,
 				BFD1DCD71AB403BA005E26F2 /* DKUIViewController.m in Sources */,
 				BF1CF1901ABE92C500918488 /* UPBaseView.m in Sources */,
@@ -1509,6 +1535,7 @@
 				BFD1DCF61AB40C3D005E26F2 /* ASIInputStream.m in Sources */,
 				BFD1DD491AB54334005E26F2 /* ELCAssetGroupCell.m in Sources */,
 				BFD1DD551AB544A2005E26F2 /* CameraOverlayVC.m in Sources */,
+				BFFFBCB71AD291DB001EE820 /* RegisterSecondVC.m in Sources */,
 				BFD1DD451AB54334005E26F2 /* AssetObject.m in Sources */,
 				BFD1DD131AB41F43005E26F2 /* ChooseSortVC.m in Sources */,
 				BFD1DD7B1AB549D0005E26F2 /* FileHelper.m in Sources */,
@@ -1525,11 +1552,13 @@
 				BF1CF1631ABE8FF500918488 /* UPShuFaView.m in Sources */,
 				BFD1DCF01AB40C3D005E26F2 /* ASIAuthenticationDialog.m in Sources */,
 				BF1CF14A1ABE8E8B00918488 /* UPBanhuaView.m in Sources */,
+				BFFFBCB11AD2918B001EE820 /* LoginVC.m in Sources */,
 				BFD1DD461AB54334005E26F2 /* ELCAlbumPickerController.m in Sources */,
 				BFD1DC781AB3F8AE005E26F2 /* CustomNaviBarSearchController.m in Sources */,
 				BFD1DCF51AB40C3D005E26F2 /* ASIHTTPRequest.m in Sources */,
 				BFD1DD5B1AB544E0005E26F2 /* ISIrisElementLayer.m in Sources */,
 				BF1CF1591ABE8F5300918488 /* UPDiaoShuView.m in Sources */,
+				BFFFBCBD1AD2928C001EE820 /* ForgetPWSecVC.m in Sources */,
 				BFD1DC7A1AB3F8AE005E26F2 /* CustomNavigationController.m in Sources */,
 				BFD1DD471AB54334005E26F2 /* ELCAsset.m in Sources */,
 				BF1CF1811ABE91D900918488 /* UPYuQiView.m in Sources */,
@@ -1540,6 +1569,7 @@
 				BFD1DD751AB546BA005E26F2 /* GMGridViewCell.m in Sources */,
 				BF1CF1451ABE8E2E00918488 /* UPVideoView.m in Sources */,
 				BFD1DD511AB54393005E26F2 /* BIndicator.m in Sources */,
+				BFFFBCBA1AD2926C001EE820 /* ForgetPWVC.m in Sources */,
 				D1F401B91A8B3DDF003D227D /* main.m in Sources */,
 				BF1CF1541ABE8EF500918488 /* UPChiQiView.m in Sources */,
 				BFD1DD521AB54393005E26F2 /* MBProgressHUD.m in Sources */,
