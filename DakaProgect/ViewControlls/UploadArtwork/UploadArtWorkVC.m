@@ -79,7 +79,9 @@
         case 105:
         {
             _shuFaView = [[UPShuFaView alloc] initFromNib];
+             _shuFaView.frame = CGRectMake(0, 254, _totalScrollView.frame.size.width, 751);
             [_totalScrollView addSubview:_shuFaView];
+            _totalScrollView.contentSize = CGSizeMake(0, CGRectGetMaxY(_shuFaView.frame));
         }
             break;
         case 106:
