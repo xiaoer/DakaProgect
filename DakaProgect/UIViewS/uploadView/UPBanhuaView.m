@@ -27,6 +27,22 @@
         _yueView.layer.cornerRadius  = 3.0f;
         _riView.layer.masksToBounds = YES;
         _riView.layer.cornerRadius = 3.0f;
+        
+        _widthView.layer.masksToBounds = YES;
+        _widthView.layer.cornerRadius = 3.0f;
+        _heightView.layer.masksToBounds = YES;
+        _heightView.layer.cornerRadius = 3.0f;
+        
+        _depthView.hidden = YES;
+        
+        _materialView.layer.masksToBounds = YES;
+        _materialView.layer.cornerRadius = 3.0f;
+        
+        _verNumFirstVW.layer.masksToBounds =YES;
+        _verNumFirstVW.layer.cornerRadius = 3.0f;
+        _verNumSecVW.layer.masksToBounds = YES;
+        _verNumSecVW.layer.cornerRadius = 3.0f;
+        _verNumThirdVW.hidden = YES;
     }
     return self;
     

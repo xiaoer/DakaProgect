@@ -20,5 +20,25 @@
 @property (nonatomic,weak) IBOutlet UIView      *riView;
 @property (nonatomic,weak) IBOutlet UITextField *riTextField;
 
+
+@property (nonatomic,weak) IBOutlet UIView *heightView;
+@property (nonatomic,weak) IBOutlet UITextField *heightTextField;
+@property (nonatomic,weak) IBOutlet UIView *widthView;
+@property (nonatomic,weak) IBOutlet UITextField *widthTextField;
+@property (nonatomic,weak) IBOutlet UIView *depthView;
+@property (nonatomic,weak) IBOutlet UITextField *depthTextField;
+
+
+@property (nonatomic,weak) IBOutlet UIView *materialView;
+@property (nonatomic,weak) IBOutlet UILabel *materialLabel;
+
+@property (nonatomic,weak) IBOutlet UIView *verNumFirstVW;
+@property (nonatomic,weak) IBOutlet UITextField *verNumFirstTF;
+@property (nonatomic,weak) IBOutlet UIView *verNumSecVW;
+@property (nonatomic,weak) IBOutlet UITextField *verNumSecTF;
+@property (nonatomic,weak) IBOutlet UIView *verNumThirdVW;
+
+
 -(id)initFromNib;
+
 @end
