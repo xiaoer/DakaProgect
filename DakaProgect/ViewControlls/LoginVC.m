@@ -10,6 +10,7 @@
 #import "RegisterFirstVC.h"
 #import "ForgetPWVC.h"
 #import "LxUI.h"
+#import "UIImage+ImageEffects.h"
 
 @interface LoginVC ()
 
@@ -22,6 +23,7 @@
    // [self setNaviBarTitle:@"登录"];
     [self setNaviBarLeftBtn:nil];
     [self.view setBackgroundColor:UIColorFromRGB(0xe5e5e5)];
+    [_backImageView setImage:[[UIImage imageNamed:@"login_back.jpg"] applyExtraLightEffect]];
     _userNameView.layer.cornerRadius = 3.0f;
     _userNameView.layer.masksToBounds = YES;
     _passWordView.layer.cornerRadius = 3.0f;
@@ -36,12 +38,16 @@
 
 -(IBAction)regisetButtonSelected:(UIButton *)sendButton
 {
+    [_userNameTextField resignFirstResponder];
+    [_passWordTextField resignFirstResponder];
     RegisterFirstVC *regsterFirstVC = [[UIStoryboard storyboardWithName:@"Main" bundle:nil] instantiateViewControllerWithIdentifier:@"RegisterFirstVC"];
     [self.navigationController pushViewController:regsterFirstVC animated:YES];
 }
 
 -(IBAction)forgetPassWordButtonSelected:(UIButton *)sendButton
 {
+    [_userNameTextField resignFirstResponder];
+    [_passWordTextField resignFirstResponder];
     ForgetPWVC *forgetPwVC =[[UIStoryboard storyboardWithName:@"Main" bundle:nil] instantiateViewControllerWithIdentifier:@"ForgetPWVC"];
     [self.navigationController pushViewController:forgetPwVC animated:YES];
 }
