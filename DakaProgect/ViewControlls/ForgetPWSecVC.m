@@ -21,6 +21,11 @@
     // Do any additional setup after loading the view.
 }
 
+-(IBAction)setButtonSelected:(id)sender
+{
+    
+}
+
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.

@@ -17,8 +17,13 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    [self setNaviBarTitle:@"注册"];
+    [self setNaviBarTitle:@"验证手机"];
     [self.view setBackgroundColor:UIColorFromRGB(0xe5e5e5)];
+}
+
+-(IBAction)nextStepButtonSelected:(id)sender
+{
+    
 }
 
 - (void)didReceiveMemoryWarning {

@@ -21,6 +21,11 @@
     [self.view setBackgroundColor:UIColorFromRGB(0xe5e5e5)];
 }
 
+-(IBAction)nextStepButtonSelected:(id)sender
+{
+    
+}
+
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
 }
