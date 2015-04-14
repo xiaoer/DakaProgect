@@ -9,6 +9,7 @@
 #import "LoginVC.h"
 #import "RegisterFirstVC.h"
 #import "ForgetPWVC.h"
+#import "LxUI.h"
 
 @interface LoginVC ()
 
@@ -18,11 +19,18 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    [self setNaviBarTitle:@"登录"];
+   // [self setNaviBarTitle:@"登录"];
     [self setNaviBarLeftBtn:nil];
     [self.view setBackgroundColor:UIColorFromRGB(0xe5e5e5)];
+    _userNameView.layer.cornerRadius = 3.0f;
+    _userNameView.layer.masksToBounds = YES;
+    _passWordView.layer.cornerRadius = 3.0f;
+    _passWordView.layer.masksToBounds = YES;
+    [_loginButton setBackgroundImage:[LxUI createImageWithColor:UIColorFromRGB(0x6ad57d)] forState:UIControlStateNormal];
+    _loginButton.layer.cornerRadius = 3.0f;
+    _loginButton.layer.masksToBounds = YES;
    // [self regisetButtonSelected:nil];
-    [self forgetPassWordButtonSelected:nil];
+   // [self forgetPassWordButtonSelected:nil];
     // Do any additional setup after loading the view.
 }
 

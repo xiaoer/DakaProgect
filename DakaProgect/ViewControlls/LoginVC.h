@@ -13,7 +13,9 @@
 @property (nonatomic,weak) IBOutlet UIImageView  *backImageView;
 @property (nonatomic,weak) IBOutlet UIScrollView *tolScrollView;
 @property (nonatomic,weak) IBOutlet UIView       *loginView;
+@property (nonatomic,weak) IBOutlet UIView           *userNameView;
 @property (nonatomic,weak) IBOutlet UITextField      *userNameTextField;
+@property (nonatomic,weak) IBOutlet UIView          *passWordView;
 @property (nonatomic,weak) IBOutlet UITextField      *passWordTextField;
 @property (nonatomic,weak) IBOutlet UIButton        *loginButton;
 @property (nonatomic,weak) IBOutlet UIImageView     *coverImageView;
