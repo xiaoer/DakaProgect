@@ -29,6 +29,10 @@
     [_retryButton setBackgroundImage:[LxUI createImageWithColor:UIColorFromRGB(0x0078FA)] forState:UIControlStateNormal];
     [_retryButton.layer setCornerRadius:5.0f];
     [_retryButton.layer setMasksToBounds:YES];
+    
+    [_nextStepButton setBackgroundImage:[LxUI createImageWithColor:UIColorFromRGB(0x0078FA)] forState:UIControlStateNormal];
+    _nextStepButton.layer.cornerRadius = 3.0f;
+    _nextStepButton.layer.masksToBounds = YES;
 }
 
 -(IBAction)nextStepButtonSelected:(id)sender
