@@ -7,6 +7,7 @@
 //
 
 #import "RegisterFirstVC.h"
+#import "LxUI.h"
 
 @interface RegisterFirstVC ()
 
@@ -19,6 +20,15 @@
     [super viewDidLoad];
     [self setNaviBarTitle:@"验证手机"];
     [self.view setBackgroundColor:UIColorFromRGB(0xe5e5e5)];
+    [UtilityFunc resetScrlView:_tolScrollView contentInsetWithNaviBar:YES tabBar:NO iOS7ContentInsetStatusBarHeight:0 inidcatorInsetStatusBarHeight:-1];
+    _valView.layer.masksToBounds = YES;
+    _valView.layer.cornerRadius = 3.0f;
+    _userTelView.layer.masksToBounds = YES;
+    _userTelView.layer.cornerRadius = 3.0f;
+    
+    [_retryButton setBackgroundImage:[LxUI createImageWithColor:UIColorFromRGB(0x0078FA)] forState:UIControlStateNormal];
+    [_retryButton.layer setCornerRadius:5.0f];
+    [_retryButton.layer setMasksToBounds:YES];
 }
 
 -(IBAction)nextStepButtonSelected:(id)sender

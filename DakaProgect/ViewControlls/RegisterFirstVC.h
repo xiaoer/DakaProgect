@@ -13,7 +13,9 @@
 
 
 @property (nonatomic,weak) IBOutlet UIScrollView *tolScrollView;
+@property (nonatomic,weak) IBOutlet UIView      *userTelView;
 @property (nonatomic,weak) IBOutlet UITextField *userTelTextField;
+@property (nonatomic,weak) IBOutlet UIView      *valView;
 @property (nonatomic,weak) IBOutlet UITextField *valTextField;
 @property (nonatomic,weak) IBOutlet UIButton *retryButton;
 @property (nonatomic,weak) IBOutlet UIView   *retryView;
